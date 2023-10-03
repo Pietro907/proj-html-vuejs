@@ -95,7 +95,7 @@ export default {
 }
 
 .col>.cart {
-    padding: 1rem 3rem;
+    padding: 1rem 2.5rem;
 }
 
 .card {

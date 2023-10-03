@@ -82,17 +82,20 @@ export default {
 .nav_elemets > nav > a {
     text-decoration: none;
     color: var(--bg-gray-light);
-    padding: 0 1rem;
+    padding: 2.8rem 1rem 0;
     & i{
         font-size: 6px;
     }
+}
+nav a:hover {
+    border-top: 3px solid var(--bg-blue-light);
 }
 .btn_shop_now{
     margin-right: 2rem;
 
 }
 .btn_shop_now > button{
-    padding: 0.2rem 0.8rem;
+    padding: 0.5rem 1rem;
     border-radius: 20px;
     font-size: xx-small;
     background-color: var(--bg-blue-light);
