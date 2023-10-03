@@ -48,7 +48,7 @@ export default {
 <style scoped>
 .container {
     border-bottom: 1px solid var(--bg-white-smoke);
-    font-size: xx-small;
+    font-size: x-small;
 }
 
 .r_60 {
@@ -67,7 +67,7 @@ export default {
 }
 
 .brands_logo>i {
-    padding: 0 1rem;
+    padding: 0 0.5rem;
 }
 
 .menu_shopping>i {
