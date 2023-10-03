@@ -37,7 +37,8 @@
         </div>
 
         <div class="square1">
-            <i class="fa-solid fa-tag"></i>
+            <span class="color_green small">$</span>
+            <span class="color_green number">39</span>
             <p>On Sale</p>
         </div>
 
@@ -102,9 +103,18 @@
     background-color: var(--bg-primary);
     padding: 0.5rem;
     box-shadow: 1px 2px 3px 1px;
+    & .small {
+        font-size: 9px;
+        position: relative;
+        bottom: 8px;
+    }
+    & .number {
+        font-size: 20px;
+    }
     & p{
         font-size: 8px;
     }
+    
 }
 
 
@@ -137,6 +147,13 @@
 }
 .m_05 {
     margin: 0 0.5rem;
+}
+
+
+/* Color */
+
+.color_green {
+    color: #46e230;
 }
 
 </style>
