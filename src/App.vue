@@ -51,4 +51,5 @@ export default{
   --bg-heaven: #55CCE5;
   --bg-white-smoke: #F5F5F5;
 }
+
 </style>

@@ -24,8 +24,6 @@ export default {
             </div>
 
 
-
-
             <div class="col d_flex jst_end">
                 <div class="card menu_shopping">
 
@@ -34,11 +32,10 @@ export default {
 
                 </div>
 
-                <div class="card menu_shopping">
+                <div class="card cart bg_gray_light">
 
                     <i class="fa-solid fa-cart-shopping"></i>
-                    <a href="#">Cart <i class="fa-solid fa-angle-down"></i></a>
-
+                    <a href="#">CART <i class="fa-solid fa-angle-down"></i></a>
 
                 </div>
             </div>
@@ -50,8 +47,7 @@ export default {
 
 <style scoped>
 .container{
-    padding: 1rem 0;
-    border-bottom: 1px solid var(--bg-gray-light);
+    border-bottom: 1px solid var(--bg-white-smoke);
     font-size: xx-small;
 }
 .r_60 {
@@ -61,27 +57,36 @@ export default {
 .col {
     width: calc(100% / 12 * 6);
 }
-.brands_logo, .menu_shopping > i{
+.brands_logo, .menu_shopping > i, .cart {
     color: var(--bg-secondary);
 }
 .brands_logo > i {
     padding: 0 1rem;
 }
-.menu_shopping > i{
+
+.menu_shopping > i {
     padding: 0 0 0 4rem;
 }
-.menu_shopping > a {
-    padding: 0 0.5rem;
+.menu_shopping > a, .cart > a {
+    padding: 1rem 0.5rem;
     text-decoration: none;
     color: var(--bg-gray-light);
+}.cart > a{
+    color: var(--bg-secondary);
 }
+.col > .card {
+    padding: 1rem 0;
+}
+.col > .cart {
+    padding: 1rem 2rem;
+}
+
 .card {
     background-color: var(--bg-primary);
 }
 .border_account{
-
-    border-left: 1px solid var(--bg-gray-light);
-    border-right: 1px solid var(--bg-gray-light);
+    border-left: 1px solid var(--bg-white-smoke);
+    border-right: 1px solid var(--bg-white-smoke);
 }
 
 
@@ -105,7 +110,11 @@ export default {
     align-items: center;
 }
 
-.align_self_end {
-    align-self: self-end;
+
+/* Color */
+
+.bg_gray_light{
+    background-color: var(--bg-white-smoke);
 }
+
 </style>
