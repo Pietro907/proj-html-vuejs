@@ -13,7 +13,7 @@ export default {
 
             <div class="col">
                 <div class="card">
-                    <img class="logo_shop" src="../assets/img/classic shop/classic_shop_logo2x.png" alt="">
+                    <img class="logo_shop" src="../assets/img/classic_shop/classic_shop_logo2x.png" alt="">
                 </div>
             </div>
 

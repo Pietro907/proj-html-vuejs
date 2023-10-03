@@ -31,6 +31,16 @@
             </div>
 
         </div>
+
+        <div class="square">
+            <i class="fa-solid fa-tag"></i>
+        </div>
+
+        <div class="square1">
+            <i class="fa-solid fa-tag"></i>
+            <p>On Sale</p>
+        </div>
+
     </div>
 </div>
 
@@ -47,6 +57,7 @@
     background-size: cover;
     background-position: right;
     background-repeat: no-repeat;
+    position: relative;
 }
 .new_arrivals {
     height: 430px;
@@ -74,7 +85,27 @@
 .color {
     background-color: #f5f5f523;
 }
-
+.square {
+    position: absolute;
+    top: -20px;
+    right: 15px;
+    border-radius: 7px;
+    background-color: var(--bg-primary);
+    padding: 1rem;
+    box-shadow: 1px 2px 3px 1px;
+}
+.square1 {
+    position: absolute;
+    top: 40px;
+    right: 15px;
+    border-radius: 7px;
+    background-color: var(--bg-primary);
+    padding: 0.5rem;
+    box-shadow: 1px 2px 3px 1px;
+    & p{
+        font-size: 8px;
+    }
+}
 
 
 
