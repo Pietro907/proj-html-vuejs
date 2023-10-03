@@ -1,6 +1,7 @@
 
 <script>
 import MainJumbotron from './MainJumbotron.vue';
+import MainFeaturedProduction from './MainFeaturedProduction.vue';
 
     export default {
         name: 'Main',
@@ -11,6 +12,7 @@ import MainJumbotron from './MainJumbotron.vue';
         },
         components: {
             MainJumbotron,
+            MainFeaturedProduction,
         }
     }
 </script>
@@ -19,7 +21,8 @@ import MainJumbotron from './MainJumbotron.vue';
 <template>
     
     <MainJumbotron />
-
+    
+    <MainFeaturedProduction />
 
 </template>
 
