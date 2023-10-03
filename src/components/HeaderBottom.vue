@@ -42,6 +42,7 @@ export default {
 .r_60 {
     width: 60%;
     margin: 0 auto;
+    padding: 2rem 0;
 }
 
 .col {
