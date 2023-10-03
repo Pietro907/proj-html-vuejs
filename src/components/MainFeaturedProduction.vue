@@ -34,11 +34,11 @@ export default {
 
             <div class="col">
                 <div class="card products">
-                    <img src="../assets/img/featured_produtcs/black_leather/black_leather_suit.jpg" alt="">
+                    <img src="../assets/img/black_elegant_man/black_elegant_leather_jacket.jpg" alt="">
 
                     <div class="info_cost">
-                        <h5>Black Leather Suit</h5>
-                        <h6>Men, Jackets</h6>
+                        <h5>Black Leather Jacket</h5>
+                        <h6>Men, Jackets, Jeans</h6>
                         <p class="style_line">$235</p>
                         <p>$200</p>
                     </div>
@@ -53,7 +53,7 @@ export default {
                     <div class="info_cost">
                         <h5>Black Leather Suit</h5>
                         <h6>Men, Jackets</h6>
-                        <p>$235</p>
+                        <p>$176</p>
                     </div>
 
                 </div>
@@ -61,12 +61,12 @@ export default {
 
             <div class="col">
                 <div class="card products">
-                    <img src="../assets/img/featured_produtcs/black_leather/black_leather_suit.jpg" alt="">
+                    <img src="../assets/img/featured_produtcs/blue_jacket/blue_jacket_and_white_stripe_tee.jpg" alt="">
 
                     <div class="info_cost">
-                        <h5>Black Leather Suit</h5>
-                        <h6>Men, Jackets</h6>
-                        <p>$235</p>
+                        <h5>Blue Jacket & Stripe Tee</h5>
+                        <h6>Men, Jackets, Suits</h6>
+                        <p>$580</p>
                     </div>
 
                 </div>
@@ -74,12 +74,12 @@ export default {
 
             <div class="col">
                 <div class="card products">
-                    <img src="../assets/img/featured_produtcs/black_leather/black_leather_suit.jpg" alt="">
+                    <img src="../assets/img/featured_produtcs/modern_black/modern_black_leather_suit.jpg" alt="">
 
                     <div class="info_cost">
-                        <h5>Black Leather Suit</h5>
+                        <h5>Modern Black Leather Suit</h5>
                         <h6>Men, Jackets</h6>
-                        <p>$235</p>
+                        <p>$96</p>
                     </div>
 
 
@@ -126,11 +126,14 @@ export default {
  .info_cost>h5 {
      padding: 1rem 0 0.5rem;
  }
-
+.info_cost>h6 {
+    color: var(--bg-gray-light);
+}
  p {
      display: inline-block;
      padding: 0.5rem 0.5rem 0 0;
      font-size: 12px;
+     color: var(--bg-heaven);
  }
 
  .style_line {
