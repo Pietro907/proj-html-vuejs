@@ -49,7 +49,6 @@ export default {
 .container {
     border-bottom: 1px solid var(--bg-white-smoke);
     font-size: xx-small;
-
 }
 
 .r_60 {
@@ -91,7 +90,7 @@ export default {
 }
 
 .col>.cart {
-    padding: 1rem 2rem;
+    padding: 1rem 3rem;
 }
 
 .card {
