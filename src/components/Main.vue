@@ -3,6 +3,7 @@
 import MainJumbotron from './MainJumbotron.vue';
 import MainFeaturedProduction from './MainFeaturedProduction.vue';
 import MainCollection from './MainCollection.vue';
+import MainBestSeller from './MainBestSeller.vue';
 
     export default {
         name: 'Main',
@@ -15,6 +16,7 @@ import MainCollection from './MainCollection.vue';
             MainJumbotron,
             MainFeaturedProduction,
             MainCollection,
+            MainBestSeller,
         }
     }
 </script>
@@ -27,6 +29,8 @@ import MainCollection from './MainCollection.vue';
     <MainFeaturedProduction />
 
     <MainCollection />
+
+    <MainBestSeller />
 
 </template>
 
