@@ -92,7 +92,7 @@ export default {
 
 }
 .btn_shop_now > button{
-    padding: 0.3rem 0.8rem;
+    padding: 0.2rem 0.8rem;
     border-radius: 20px;
     font-size: xx-small;
     background-color: var(--bg-blue-light);
