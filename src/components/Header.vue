@@ -20,8 +20,9 @@ import HeaderBottom from './HeaderBottom.vue';
 
 
 <template>
- 
+<!-- Divisione Header in Top & Bottom -->
     <HeaderTop />
+
     <HeaderBottom />
 
 </template>

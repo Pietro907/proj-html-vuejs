@@ -1,17 +1,16 @@
 
 <script>
-    export default {
-        name: 'HeaderTop',
-        
-    }
+export default {
+    name: 'HeaderTop',
+
+}
 </script>
 
 
 
 <template>
-    
     <div class="container">
-        <div class="row">
+        <div class="row r_80 d_flex jst_btw">
 
             <div class="col">
                 <div class="card brands_logo">
@@ -24,26 +23,65 @@
                 </div>
             </div>
 
-            <div class="col">
+
+
+
+            <div class="col d_flex jst_end">
                 <div class="card">
+
+                    <a href="#">Shopping Cart</a>
+                    <a href="#">My Acoount <i class="fa-solid fa-angle-down"></i></a>
 
                 </div>
-            </div>
 
-            <div class="col">
                 <div class="card">
-                    
+
+                    <div class="fa-solid fa-cart-shopping"></div>
+                    <a href="#">Cart <i class="fa-solid fa-angle-down"></i></a>
+
+
                 </div>
             </div>
 
         </div>
     </div>
-
 </template>
 
 
 <style scoped>
-.card{
-    background-color: blueviolet;
+.r_80 {
+    width: 60%;
+    margin: 0 auto;
+}
+.col {
+    width: calc(100% / 12 * 6);
+}
+.card {
+    background-color: var(--bg-primary);
+}
+
+
+/* Utilities */
+.d_flex {
+    display: flex;
+}
+
+.jst_center {
+    justify-content: center;
+}
+.jst_end {
+    justify-content: end;
+}
+
+.jst_btw {
+    justify-content: space-between;
+}
+
+.align_center {
+    align-items: center;
+}
+
+.align_self_end {
+    align-self: self-end;
 }
 </style>

@@ -42,6 +42,7 @@ export default{
   box-sizing: border-box;
 }
 
+/* Color */
 :root{
   --bg-primary: #FFFFFF;
   --bg-secondary: #494949;
