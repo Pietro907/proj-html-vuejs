@@ -5,15 +5,16 @@ import HeaderBottom from './HeaderBottom.vue';
 
     export default {
         name: 'Header',
-        components:{
-            HeaderTop,
-            HeaderBottom,
-        },
+      
         data(){
             return {
 
             }
-        }
+        },
+        components:{
+            HeaderTop,
+            HeaderBottom,
+        },
     }
 </script>
 

@@ -14,7 +14,7 @@
         <div class="row">
 
             <div class="col">
-                <div class="card">
+                <div class="card brands_logo">
 
                     <div class="fa-solid fa-brands fa-facebook"></div>
                     <div class="fa-solid fa-brands fa-twitter"></div>

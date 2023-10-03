@@ -6,16 +6,17 @@ import {state} from './state.js';
 
 
 export default{
+  name: 'App',
+  data(){
+    return {
+      state,
+    }
+  },
   components: {
     Header,
     Main,
     Footer,
   },
-  data(){
-    return {
-      state,
-    }
-  }
 
 
 }
@@ -41,5 +42,12 @@ export default{
   box-sizing: border-box;
 }
 
-
+:root{
+  --bg-primary: #FFFFFF;
+  --bg-secondary: #494949;
+  --bg-gray-light: #AAAAAA;
+  --bg-blue-light: #427ED1;
+  --bg-heaven: #55CCE5;
+  --bg-white-smoke: #F5F5F5;
+}
 </style>
