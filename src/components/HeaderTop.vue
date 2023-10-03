@@ -30,7 +30,7 @@ export default {
                 <div class="card menu_shopping">
 
                     <a href="#">Shopping Cart</a>
-                    <a href="#">My Acoount <i class="fa-solid fa-angle-down"></i></a>
+                    <a class="border_account" href="#">My Account <i class="fa-solid fa-angle-down"></i></a>
 
                 </div>
 
@@ -51,7 +51,8 @@ export default {
 <style scoped>
 .container{
     padding: 1rem 0;
-    border-bottom: 1px solid var(--bg-white-smoke);
+    border-bottom: 1px solid var(--bg-gray-light);
+    font-size: xx-small;
 }
 .r_60 {
     width: 60%;
@@ -60,14 +61,27 @@ export default {
 .col {
     width: calc(100% / 12 * 6);
 }
-.brands_logo{
+.brands_logo, .menu_shopping > i{
     color: var(--bg-secondary);
 }
 .brands_logo > i {
+    padding: 0 1rem;
+}
+.menu_shopping > i{
+    padding: 0 0 0 4rem;
+}
+.menu_shopping > a {
     padding: 0 0.5rem;
+    text-decoration: none;
+    color: var(--bg-gray-light);
 }
 .card {
     background-color: var(--bg-primary);
+}
+.border_account{
+
+    border-left: 1px solid var(--bg-gray-light);
+    border-right: 1px solid var(--bg-gray-light);
 }
 
 
