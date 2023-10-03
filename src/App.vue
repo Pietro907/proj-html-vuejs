@@ -25,12 +25,14 @@ export default {
 </script>
 
 <template>
+  
   <!-- Header -->
   <Header />
   <!-- Main -->
   <Main />
   <!-- Footer -->
   <Footer />
+
 </template>
 
 <style>

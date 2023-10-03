@@ -24,8 +24,8 @@
 
                 <div class="btn">
 
-                    <button class="color" type="button">VIEW ALL</button>
-                    <button class="color" type="button">LOOKBOOK</button>
+                    <button class="color m_05" type="button">VIEW ALL</button>
+                    <button class="color m_05" type="button">LOOKBOOK</button>
 
                 </div>
             </div>
@@ -104,6 +104,8 @@
 .align_center {
     align-items: center;
 }
-
+.m_05 {
+    margin: 0 0.5rem;
+}
 
 </style>
