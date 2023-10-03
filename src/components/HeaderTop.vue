@@ -46,45 +46,59 @@ export default {
 
 
 <style scoped>
-.container{
+.container {
     border-bottom: 1px solid var(--bg-white-smoke);
     font-size: xx-small;
+
 }
+
 .r_60 {
     width: 60%;
     margin: 0 auto;
 }
+
 .col {
     width: calc(100% / 12 * 6);
 }
-.brands_logo, .menu_shopping > i, .cart {
+
+.brands_logo,
+.menu_shopping>i,
+.cart {
     color: var(--bg-secondary);
 }
-.brands_logo > i {
+
+.brands_logo>i {
     padding: 0 1rem;
 }
 
-.menu_shopping > i {
+.menu_shopping>i {
     padding: 0 0 0 4rem;
 }
-.menu_shopping > a, .cart > a {
+
+.menu_shopping>a,
+.cart>a {
     padding: 1rem 0.5rem;
     text-decoration: none;
     color: var(--bg-gray-light);
-}.cart > a{
+}
+
+.cart>a {
     color: var(--bg-secondary);
 }
-.col > .card {
+
+.col>.card {
     padding: 1rem 0;
 }
-.col > .cart {
+
+.col>.cart {
     padding: 1rem 2rem;
 }
 
 .card {
     background-color: var(--bg-primary);
 }
-.border_account{
+
+.border_account {
     border-left: 1px solid var(--bg-white-smoke);
     border-right: 1px solid var(--bg-white-smoke);
 }
@@ -98,6 +112,7 @@ export default {
 .jst_center {
     justify-content: center;
 }
+
 .jst_end {
     justify-content: end;
 }
@@ -113,8 +128,6 @@ export default {
 
 /* Color */
 
-.bg_gray_light{
+.bg_gray_light {
     background-color: var(--bg-white-smoke);
-}
-
-</style>
+}</style>
