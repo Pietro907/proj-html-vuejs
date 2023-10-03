@@ -32,9 +32,21 @@ export default {
 
                 </div>
             </div>
-            <div class="col">
-                <div class="card brands_logo">
-                    button:hover & icon
+            <div class="col d_flex jst_end">
+                <div class="card d_flex align_center">
+
+                    <div class="btn_shop_now">
+
+                        <button type="button">SHOP NOW!</button>
+
+                    </div>
+
+                    <div class="icon_search">
+
+                        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+
+                    </div>
+                  
                 </div>
             </div>
         </div>
@@ -64,6 +76,13 @@ export default {
     text-decoration: none;
     color: var(--bg-gray-light);
 }
+.btn_shop_now{
+    margin-right: 2rem;
+}
+
+
+
+
 
 
 /* Utilities */
