@@ -16,16 +16,16 @@
     
 <div class="container">
     <div class="row">
-        <div class="col d_flex jst_center align_center">
+        <div class="col d_flex jst_center">
             
-            <div class="card">
+            <div class="card new_arrivals d_flex f_column jst_center">
                 <h1>Brand New Arrivals</h1>
                 <h5>NEW COLLECTION FORM NEW YORK</h5>
 
                 <div class="btn">
 
-                    <button type="button">VIEW ALL</button>
-                    <button type="button">LOOKBOOK</button>
+                    <button class="color" type="button">VIEW ALL</button>
+                    <button class="color" type="button">LOOKBOOK</button>
 
                 </div>
             </div>
@@ -48,6 +48,34 @@
     background-position: right;
     background-repeat: no-repeat;
 }
+.new_arrivals {
+    height: 430px;
+    padding: 0 0 5rem;
+    text-align: center;
+    margin: 2rem 0 0;
+    & h1{
+        color: var(--bg-primary);
+        font-size: 50px;
+        margin: 0 0 0.5rem
+    }
+    & h5 {
+        color: var(--bg-gray-light);
+        font-size: 15px;
+        margin: 0 0 1.5rem
+    }
+}
+.btn > button {
+    font-size: 9px;
+    padding: 0.6rem 1.5rem;
+    border-radius: 20px;
+    border-color: var(--bg-primary);
+    color: var(--bg-primary);
+} 
+.color {
+    background-color: #f5f5f523;
+}
+
+
 
 
 
@@ -55,7 +83,12 @@
 .d_flex {
     display: flex;
 }
-
+.f_row {
+    flex-direction: row;
+}
+.f_column {
+    flex-direction: column;
+}
 .jst_center {
     justify-content: center;
 }
