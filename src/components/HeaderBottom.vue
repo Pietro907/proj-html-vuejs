@@ -17,7 +17,7 @@ export default {
                 </div>
             </div>
 
-            <div class="col">
+            <div class="col_8 d_flex jst_end">
                 <div class="card nav_elemets">
 
                     <nav>
@@ -70,7 +70,10 @@ export default {
 }
 
 .col {
-    width: calc(100% / 12 * 6);
+    width: calc(100% / 12 * 2);
+}
+.col_8 {
+    width: calc(100% / 12 * 8);
 }
 
 .logo_shop {
@@ -79,6 +82,10 @@ export default {
 .nav_elemets > nav > a {
     text-decoration: none;
     color: var(--bg-gray-light);
+    padding: 0 1rem;
+    & i{
+        font-size: 6px;
+    }
 }
 .btn_shop_now{
     margin-right: 2rem;
