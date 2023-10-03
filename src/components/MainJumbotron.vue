@@ -53,7 +53,7 @@
 
 .container {
     background-image: url(../assets/img/home1/home1_slide_three_bg_2.jpg);
-    height: 430px;
+    height: 510px;
     background-size: cover;
     background-position: right;
     background-repeat: no-repeat;
