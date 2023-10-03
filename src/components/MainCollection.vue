@@ -71,19 +71,7 @@ export default {
 
         </div>
     </div>
-    <h2>ciao</h2>
-    <h2>ciao</h2>
 
-    <h1>ciao</h1>
-    <h1>ciao</h1>
-    <h1>ciao</h1>
-    <h1>ciao</h1>
-    <h1>ciao</h1>
-    <h1>ciao</h1>
-    <h1>ciao</h1>
-    <h1>ciao</h1>
-    <h1>ciao</h1>
-    <h1>ciao</h1>
 </template>
 
 
