@@ -2,7 +2,8 @@
 import Header from './components/Header.vue';
 import Main from './components/Main.vue';
 import Footer from './components/Footer.vue';
-import state from './state.js';
+import {state} from './state.js';
+
 
 export default{
   components: {
