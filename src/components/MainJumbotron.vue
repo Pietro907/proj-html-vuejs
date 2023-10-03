@@ -1,16 +1,12 @@
 
 <script>
-import MainJumbotron from './MainJumbotron.vue';
 
     export default {
-        name: 'Main',
+        name: 'MainJumbotron',
         data(){
             return {
 
             }
-        },
-        components: {
-            MainJumbotron,
         }
     }
 </script>
@@ -18,8 +14,8 @@ import MainJumbotron from './MainJumbotron.vue';
 
 <template>
     
-    <MainJumbotron />
 
+<h1>ciao</h1>
 
 </template>
 
