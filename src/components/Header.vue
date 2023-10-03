@@ -1,7 +1,14 @@
 
 <script>
+import HeaderTop from './HeaderTop.vue';
+import HeaderBottom from './HeaderBottom.vue';
+
     export default {
         name: 'Header',
+        components:{
+            HeaderTop,
+            HeaderBottom,
+        },
         data(){
             return {
 
@@ -12,9 +19,10 @@
 
 
 <template>
-    <div>
+ 
+    <HeaderTop />
+    <HeaderBottom />
 
-    </div>
 </template>
 
 

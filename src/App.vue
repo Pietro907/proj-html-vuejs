@@ -23,7 +23,7 @@ export default{
 </script>
 
 <template>
-  <h1><i class="fa fa-clipboard" aria-hidden="true"></i></h1>
+
 <!-- Header -->
 <Header />
 <!-- Main -->
