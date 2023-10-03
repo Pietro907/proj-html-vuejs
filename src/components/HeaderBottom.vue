@@ -16,6 +16,7 @@ export default {
                     <img class="logo_shop" src="../assets/img/classic shop/classic_shop_logo2x.png" alt="">
                 </div>
             </div>
+
             <div class="col">
                 <div class="card nav_elemets">
 
@@ -32,6 +33,7 @@ export default {
 
                 </div>
             </div>
+
             <div class="col d_flex jst_end">
                 <div class="card d_flex align_center">
 
@@ -49,6 +51,7 @@ export default {
                   
                 </div>
             </div>
+
         </div>
     </div>
 </template>
@@ -57,6 +60,7 @@ export default {
 <style scoped>
 .container {
     font-size: xx-small;
+    
 }
 
 .r_60 {
@@ -78,11 +82,21 @@ export default {
 }
 .btn_shop_now{
     margin-right: 2rem;
+
+}
+.btn_shop_now > button{
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: xx-small;
+    background-color: var(--bg-blue-light);
+    border-color: var(--bg-blue-light);
+    color: var(--bg-white-smoke);
 }
 
+.icon_search > a {
+    color: var(--bg-secondary);
 
-
-
+}
 
 
 /* Utilities */
