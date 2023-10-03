@@ -10,15 +10,15 @@ export default {
 
 <template>
     <div class="container">
-        <div class="row r_80 d_flex jst_btw">
+        <div class="row r_60 d_flex jst_btw">
 
             <div class="col">
                 <div class="card brands_logo">
 
-                    <div class="fa-solid fa-brands fa-facebook"></div>
-                    <div class="fa-solid fa-brands fa-twitter"></div>
-                    <div class="fa-solid fa-brands fa-instagram"></div>
-                    <div class="fa-solid fa-brands fa-youtube"></div>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-solid fa-brands fa-twitter"></i>
+                    <i class="fa-solid fa-brands fa-instagram"></i>
+                    <i class="fa-solid fa-brands fa-youtube"></i>
 
                 </div>
             </div>
@@ -27,16 +27,16 @@ export default {
 
 
             <div class="col d_flex jst_end">
-                <div class="card">
+                <div class="card menu_shopping">
 
                     <a href="#">Shopping Cart</a>
                     <a href="#">My Acoount <i class="fa-solid fa-angle-down"></i></a>
 
                 </div>
 
-                <div class="card">
+                <div class="card menu_shopping">
 
-                    <div class="fa-solid fa-cart-shopping"></div>
+                    <i class="fa-solid fa-cart-shopping"></i>
                     <a href="#">Cart <i class="fa-solid fa-angle-down"></i></a>
 
 
@@ -49,12 +49,22 @@ export default {
 
 
 <style scoped>
-.r_80 {
+.container{
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--bg-white-smoke);
+}
+.r_60 {
     width: 60%;
     margin: 0 auto;
 }
 .col {
     width: calc(100% / 12 * 6);
+}
+.brands_logo{
+    color: var(--bg-secondary);
+}
+.brands_logo > i {
+    padding: 0 0.5rem;
 }
 .card {
     background-color: var(--bg-primary);
