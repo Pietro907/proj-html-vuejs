@@ -101,7 +101,9 @@ export default {
 
 
 
-<style scoped> .featured > .title {
+<style scoped> 
+
+.featured > .title {
      text-align: center;
      margin: 6rem 0;
 
