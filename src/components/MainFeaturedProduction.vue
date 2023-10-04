@@ -10,7 +10,6 @@ export default {
 
 
 <template>
-
     <div class="featured">
 
         <h2>Featured Products</h2>
@@ -26,7 +25,7 @@ export default {
         <a>Accessories</a>
 
     </div>
-   
+
 
     <!-- 4 card img -->
     <div class="container">
@@ -95,25 +94,30 @@ export default {
 <style scoped> 
 
 .featured {
-    text-align: center;
-    margin: 6rem 0;
-    & h2 {
-        font-size: 29px;
-    }
-    & p {
-        font-size: 12px;
-        color: var(--bg-gray-light);
-    }
-}
-.category > a{
-    background-color: var(--bg-white-smoke);
-    padding: 1rem 2.5rem;
-    border: 1px solid var(--bg-gray-light);
-}
-.category > a:hover {
-    background-color: var(--bg-primary);
-}
-.r_60 {
+     text-align: center;
+     margin: 6rem 0;
+
+     & h2 {
+         font-size: 29px;
+     }
+
+     & p {
+         font-size: 12px;
+         color: var(--bg-gray-light);
+     }
+ }
+
+ .category>a {
+     background-color: var(--bg-white-smoke);
+     padding: 1rem 2.5rem;
+     border: 1px solid var(--bg-gray-light);
+ }
+
+ .category>a:hover {
+     background-color: var(--bg-primary);
+ }
+
+ .r_60 {
      width: 60%;
      margin: 0 auto;
      padding: 2rem 0;
@@ -126,9 +130,11 @@ export default {
  .info_cost>h5 {
      padding: 1rem 0 0.5rem;
  }
-.info_cost>h6 {
-    color: var(--bg-gray-light);
-}
+
+ .info_cost>h6 {
+     color: var(--bg-gray-light);
+ }
+
  p {
      display: inline-block;
      padding: 0.5rem 0.5rem 0 0;
@@ -169,9 +175,6 @@ export default {
 
  /* Color */
 
-.bg_gray_light {
-    background-color: var(--bg-white-smoke);
-}
-
-
-</style>
+ .bg_gray_light {
+     background-color: var(--bg-white-smoke);
+ }</style>
