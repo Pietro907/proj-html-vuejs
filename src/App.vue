@@ -58,5 +58,8 @@ export default {
   --bg-blue-light: #427ED1;
   --bg-heaven: #55CCE5;
   --bg-white-smoke: #F5F5F5;
+  --bg-footer-sub: #303337;
+  --bg-footer-avada: #2b2e32;
+  --bg-footer-copy: #1d1f22;
 }
 </style>
