@@ -1,20 +1,25 @@
 
 <script>
+import FooterSponsor from './FooterSponsor.vue';
+
     export default {
         name: 'Footer',
         data(){
             return {
 
             }
+        },
+        components: {
+            FooterSponsor,
         }
     }
 </script>
 
 
 <template>
-    <div>
+    
+    <FooterSponsor />
 
-    </div>
 </template>
 
 

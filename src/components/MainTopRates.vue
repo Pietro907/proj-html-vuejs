@@ -223,18 +223,6 @@ export default {
         </div>
     </div>
 
-     
-    <h1>CIAO</h1>
-    <h1>CIAO</h1>
-    <h1>CIAO</h1>
-    <h1>CIAO</h1>
-    <h1>CIAO</h1>
-    <h1>CIAO</h1>
-    <h1>CIAO</h1>
-    <h1>CIAO</h1>
-    <h1>CIAO</h1>
-    <h1>CIAO</h1>
-    <h1>CIAO</h1>
 </template>
 
 <style scoped>
