@@ -7,6 +7,7 @@ import MainBestSeller from './MainBestSeller.vue';
 import MainNewArrivals from './MainNewArrivals.vue';
 import MainTestimonial from './MainTestimonial.vue';
 import MainFromOurBlog from './MainFromOurBlog.vue';
+import MainTopRates from './MainTopRates.vue';
 
     export default {
         name: 'Main',
@@ -23,6 +24,7 @@ import MainFromOurBlog from './MainFromOurBlog.vue';
             MainNewArrivals,
             MainTestimonial,
             MainFromOurBlog,
+            MainTopRates,
         }
     }
 </script>
@@ -43,6 +45,8 @@ import MainFromOurBlog from './MainFromOurBlog.vue';
     <MainTestimonial />
 
     <MainFromOurBlog />
+
+    <MainTopRates />
 
 </template>
 
