@@ -6,7 +6,7 @@ import MainCollection from './MainCollection.vue';
 import MainBestSeller from './MainBestSeller.vue';
 import MainNewArrivals from './MainNewArrivals.vue';
 import MainTestimonial from './MainTestimonial.vue';
-import MainForOurBlog from './MainForOurBlog.vue';
+import MainFromOurBlog from './MainFromOurBlog.vue';
 
     export default {
         name: 'Main',
@@ -22,7 +22,7 @@ import MainForOurBlog from './MainForOurBlog.vue';
             MainBestSeller,
             MainNewArrivals,
             MainTestimonial,
-            MainForOurBlog,
+            MainFromOurBlog,
         }
     }
 </script>
@@ -42,7 +42,7 @@ import MainForOurBlog from './MainForOurBlog.vue';
 
     <MainTestimonial />
 
-    <MainForOurBlog />
+    <MainFromOurBlog />
 
 </template>
 
