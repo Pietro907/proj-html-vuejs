@@ -15,16 +15,15 @@ export default {
             <div class="col">
                 <div class="card products d_flex">
 
-                    <img src="../assets/img/black_elegant_man/black_elegant_leather_jacket.jpg" alt="">
-
                     <div class="info_cost">
 
                         <h5>Black Leather Jacket</h5>
                         <i class="fa-solid fa-star"></i> <br>
-                        <p class="style_line"><b>$235</b></p>
-                        <p><b>$200</b></p>
-
+                        <p><b>$125</b></p>
+                        
                     </div>
+
+                    <img src="../assets/img/featured_produtcs/black_leather/black_leather_jacket-120x156.jpg" alt="">
 
                 </div>
             </div>
@@ -32,16 +31,16 @@ export default {
             <div class="col">
                 <div class="card products d_flex">
 
-                    <img src="../assets/img/black_elegant_man/black_elegant_leather_jacket.jpg" alt="">
-
                     <div class="info_cost">
 
                         <h5>Black Leather Jacket</h5>
                         <i class="fa-solid fa-star"></i> <br>
+                        <p><b>$125</b></p>
                         <p class="style_line"><b>$235</b></p>
-                        <p><b>$200</b></p>
-
+                        
                     </div>
+
+                    <img src="../assets/img/black_elegant_man/black_elegant_leather_jacket-120x156.jpg" alt="">
 
                 </div>
             </div>
@@ -49,16 +48,15 @@ export default {
             <div class="col">
                 <div class="card products d_flex">
 
-                    <img src="../assets/img/black_elegant_man/black_elegant_leather_jacket.jpg" alt="">
-
                     <div class="info_cost">
 
                         <h5>Black Leather Jacket</h5>
                         <i class="fa-solid fa-star"></i> <br>
-                        <p class="style_line"><b>$235</b></p>
-                        <p><b>$200</b></p>
-
+                        <p><b>$125</b></p>
+                        
                     </div>
+
+                    <img src="../assets/img/leather_gloves/leather_gloves-120x156.jpg" alt="">
 
                 </div>
             </div>
@@ -66,16 +64,15 @@ export default {
             <div class="col">
                 <div class="card products d_flex">
 
-                    <img src="../assets/img/black_elegant_man/black_elegant_leather_jacket.jpg" alt="">
-
                     <div class="info_cost">
 
                         <h5>Black Leather Jacket</h5>
                         <i class="fa-solid fa-star"></i> <br>
-                        <p class="style_line"><b>$235</b></p>
-                        <p><b>$200</b></p>
-
+                        <p><b>$125</b></p>
+                        
                     </div>
+
+                    <img src="../assets/img/black_elegant_man/black_elegant_leather_jacket-120x156.jpg" alt="">
 
                 </div>
             </div>
@@ -90,16 +87,15 @@ export default {
             <div class="col">
                 <div class="card products d_flex">
 
-                    <img src="../assets/img/black_elegant_man/black_elegant_leather_jacket.jpg" alt="">
-
                     <div class="info_cost">
 
                         <h5>Black Leather Jacket</h5>
                         <i class="fa-solid fa-star"></i> <br>
-                        <p class="style_line"><b>$235</b></p>
-                        <p><b>$200</b></p>
-
+                        <p><b>$125</b></p>
+                        
                     </div>
+
+                    <img src="../assets/img/black_elegant_man/black_elegant_leather_jacket-120x156.jpg" alt="">
 
                 </div>
             </div>
@@ -107,16 +103,15 @@ export default {
             <div class="col">
                 <div class="card products d_flex">
 
-                    <img src="../assets/img/black_elegant_man/black_elegant_leather_jacket.jpg" alt="">
-
                     <div class="info_cost">
 
                         <h5>Black Leather Jacket</h5>
                         <i class="fa-solid fa-star"></i> <br>
-                        <p class="style_line"><b>$235</b></p>
-                        <p><b>$200</b></p>
-
+                        <p><b>$125</b></p>
+                        
                     </div>
+
+                    <img src="../assets/img/blue_leather/blue_leather_jacket-120x156.jpg" alt="">
 
                 </div>
             </div>
@@ -124,16 +119,15 @@ export default {
             <div class="col">
                 <div class="card products d_flex">
 
-                    <img src="../assets/img/black_elegant_man/black_elegant_leather_jacket.jpg" alt="">
-
                     <div class="info_cost">
 
                         <h5>Black Leather Jacket</h5>
                         <i class="fa-solid fa-star"></i> <br>
-                        <p class="style_line"><b>$235</b></p>
-                        <p><b>$200</b></p>
-
+                        <p><b>$125</b></p>
+                        
                     </div>
+
+                    <img src="../assets/img/black_elegant_man/black_elegant_leather_jacket-120x156.jpg" alt="">
 
                 </div>
             </div>
@@ -141,16 +135,15 @@ export default {
             <div class="col">
                 <div class="card products d_flex">
 
-                    <img src="../assets/img/black_elegant_man/black_elegant_leather_jacket.jpg" alt="">
-
                     <div class="info_cost">
 
                         <h5>Black Leather Jacket</h5>
                         <i class="fa-solid fa-star"></i> <br>
-                        <p class="style_line"><b>$235</b></p>
-                        <p><b>$200</b></p>
-
+                        <p><b>$125</b></p>
+                        
                     </div>
+
+                    <img src="../assets/img/leather_gloves/leather_gloves-120x156.jpg" alt="">
 
                 </div>
             </div>
@@ -165,16 +158,15 @@ export default {
             <div class="col">
                 <div class="card products d_flex">
 
-                    <img src="../assets/img/black_elegant_man/black_elegant_leather_jacket.jpg" alt="">
-
                     <div class="info_cost">
 
                         <h5>Black Leather Jacket</h5>
                         <i class="fa-solid fa-star"></i> <br>
-                        <p class="style_line"><b>$235</b></p>
-                        <p><b>$200</b></p>
-
+                        <p><b>$125</b></p>
+                        
                     </div>
+
+                    <img src="../assets/img/hipster_black/hipster_black_top-120x156.jpg" alt="">
 
                 </div>
             </div>
@@ -182,16 +174,15 @@ export default {
             <div class="col">
                 <div class="card products d_flex">
 
-                    <img src="../assets/img/black_elegant_man/black_elegant_leather_jacket.jpg" alt="">
-
                     <div class="info_cost">
 
                         <h5>Black Leather Jacket</h5>
                         <i class="fa-solid fa-star"></i> <br>
-                        <p class="style_line"><b>$235</b></p>
-                        <p><b>$200</b></p>
-
+                        <p><b>$125</b></p>
+                        
                     </div>
+
+                    <img src="../assets/img/modern/modern_leather_boots-120x156.jpg" alt="">
 
                 </div>
             </div>
@@ -199,16 +190,15 @@ export default {
             <div class="col">
                 <div class="card products d_flex">
 
-                    <img src="../assets/img/black_elegant_man/black_elegant_leather_jacket.jpg" alt="">
-
                     <div class="info_cost">
 
                         <h5>Black Leather Jacket</h5>
                         <i class="fa-solid fa-star"></i> <br>
-                        <p class="style_line"><b>$235</b></p>
-                        <p><b>$200</b></p>
-
+                        <p><b>$125</b></p>
+                        
                     </div>
+
+                    <img src="../assets/img/collections/spring/spring_printed_dress-120x156.jpg" alt="">
 
                 </div>
             </div>
@@ -216,8 +206,6 @@ export default {
             <div class="col">
                 <div class="card products d_flex">
 
-                    <img src="../assets/img/black_elegant_man/black_elegant_leather_jacket.jpg" alt="">
-
                     <div class="info_cost">
 
                         <h5>Black Leather Jacket</h5>
@@ -226,6 +214,8 @@ export default {
                         <p><b>$200</b></p>
 
                     </div>
+                    
+                    <img src="../assets/img/collections/spring/spring_printed_dress-120x156.jpg" alt="">
 
                 </div>
             </div>
@@ -233,80 +223,7 @@ export default {
         </div>
     </div>
 
-     <!-- 4 card img -->
-     <div class="container">
-        <div class="row r_60 d_flex jst_center align_center">
-
-            <div class="col">
-                <div class="card products d_flex">
-
-                    <img src="../assets/img/black_elegant_man/black_elegant_leather_jacket.jpg" alt="">
-
-                    <div class="info_cost">
-
-                        <h5>Black Leather Jacket</h5>
-                        <i class="fa-solid fa-star"></i> <br>
-                        <p class="style_line"><b>$235</b></p>
-                        <p><b>$200</b></p>
-
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="col">
-                <div class="card products d_flex">
-
-                    <img src="../assets/img/black_elegant_man/black_elegant_leather_jacket.jpg" alt="">
-
-                    <div class="info_cost">
-
-                        <h5>Black Leather Jacket</h5>
-                        <i class="fa-solid fa-star"></i> <br>
-                        <p class="style_line"><b>$235</b></p>
-                        <p><b>$200</b></p>
-
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="col">
-                <div class="card products d_flex">
-
-                    <img src="../assets/img/black_elegant_man/black_elegant_leather_jacket.jpg" alt="">
-
-                    <div class="info_cost">
-
-                        <h5>Black Leather Jacket</h5>
-                        <i class="fa-solid fa-star"></i> <br>
-                        <p class="style_line"><b>$235</b></p>
-                        <p><b>$200</b></p>
-
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="col">
-                <div class="card products d_flex">
-
-                    <img src="../assets/img/black_elegant_man/black_elegant_leather_jacket.jpg" alt="">
-
-                    <div class="info_cost">
-
-                        <h5>Black Leather Jacket</h5>
-                        <i class="fa-solid fa-star"></i> <br>
-                        <p class="style_line"><b>$235</b></p>
-                        <p><b>$200</b></p>
-
-                    </div>
-
-                </div>
-            </div>
-
-        </div>
-    </div>
+     
     <h1>CIAO</h1>
     <h1>CIAO</h1>
     <h1>CIAO</h1>
@@ -328,7 +245,8 @@ export default {
 }
 
 .products>img {
-    width: 70px;
+    width: 60px;
+    object-fit: cover;
 }
 
 .info_cost>h5 {
@@ -341,9 +259,9 @@ export default {
 }
 
 p {
-    display: inline-block;
     padding: 0.5rem 0.5rem 0 0;
     font-size: 12px;
+    display: inline;
 }
 
 .style_line {
