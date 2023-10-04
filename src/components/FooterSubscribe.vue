@@ -36,20 +36,6 @@ export default {
         </div>
     </div>
 
-   
-
-
-    <h1>SUBSCRIBE</h1>
-    <h1>SUBSCRIBE</h1>
-    <h1>SUBSCRIBE</h1>
-    <h1>SUBSCRIBE</h1>
-    <h1>SUBSCRIBE</h1>
-    <h1>SUBSCRIBE</h1>
-    <h1>SUBSCRIBE</h1>
-    <h1>SUBSCRIBE</h1>
-    <h1>SUBSCRIBE</h1>
-    <h1>SUBSCRIBE</h1>
-    <h1>SUBSCRIBE</h1>
 </template>
 
 <style scoped>
@@ -63,7 +49,9 @@ export default {
 .subscribe {
     font-size: 22px;
 }
-
+.icon_email > i {
+    font-size: 30px;
+}
 .icon_email {
     background-color: var(--bg-footer-copy);
     color: var(--bg-gray-light);
