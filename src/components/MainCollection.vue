@@ -152,4 +152,5 @@ export default {
 
 .color {
     background-color: #f5f5f523;
-}</style>
+}
+</style>
