@@ -27,12 +27,13 @@ export default {
 
             <div class="col">
                 <div class="card products">
-                    <img src="../assets/img/featured_produtcs/black_leather/black_leather_suit.jpg" alt="">
+                    <img src="../assets/img/post/post_img_12-700x441.jpg" alt="">
 
                     <div class="info_cost">
-                        <h5>Black Leather Suit</h5>
-                        <h6>Men, Jackets</h6>
-                        <p>$176</p>
+                        <h5>Aenean lobortis sapien enim viverra</h5>
+                        <span>September 9th, 2015</span>
+                        <span>0 Comments</span>
+                        <p>Donec finibus sit amet orci eget ultricies. Praesent posuere ante ut erat fringilla,</p>
                     </div>
 
                 </div>
@@ -40,12 +41,13 @@ export default {
 
             <div class="col">
                 <div class="card products">
-                    <img src="../assets/img/featured_produtcs/black_leather/black_leather_suit.jpg" alt="">
+                    <img src="../assets/img/post/post_img_11-700x441.jpg" alt="">
 
                     <div class="info_cost">
-                        <h5>Black Leather Suit</h5>
-                        <h6>Men, Jackets</h6>
-                        <p>$176</p>
+                        <h5>Aenean lobortis sapien enim viverra</h5>
+                        <span>September 9th, 2015</span>
+                        <span>0 Comments</span>
+                        <p>Donec finibus sit amet orci eget ultricies. Praesent posuere ante ut erat fringilla,</p>
                     </div>
 
                 </div>
@@ -53,12 +55,13 @@ export default {
 
             <div class="col">
                 <div class="card products">
-                    <img src="../assets/img/featured_produtcs/black_leather/black_leather_suit.jpg" alt="">
+                    <img src="../assets/img/post/post_img_10-700x441.jpg" alt="">
 
                     <div class="info_cost">
-                        <h5>Black Leather Suit</h5>
-                        <h6>Men, Jackets</h6>
-                        <p>$176</p>
+                        <h5>Aenean lobortis sapien enim viverra</h5>
+                        <span>September 9th, 2015</span>
+                        <span>0 Comments</span>
+                        <p>Donec finibus sit amet orci eget ultricies. Praesent posuere ante ut erat fringilla,</p>
                     </div>
 
                 </div>
@@ -105,7 +108,7 @@ export default {
  }
 
  .products>img {
-     width: 230px;
+     width: 300px;
  }
 
  .info_cost>h5 {
@@ -120,13 +123,11 @@ export default {
      display: inline-block;
      padding: 0.5rem 0.5rem 0 0;
      font-size: 12px;
-     color: var(--bg-heaven);
  }
 
- .style_line {
-     text-decoration-line: line-through;
-     font-size: 9px;
- }
+.col {
+    margin: 0 15px 0;
+}
 
 
 
