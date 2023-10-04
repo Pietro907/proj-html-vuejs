@@ -10,10 +10,18 @@ export default {
 
 
 <template>
-    <div class="featured">
+    <div class="featured d_flex jst_center align_center">
 
-        <h2>Featured Products</h2>
-        <p>Must have produtcs from our top sellers</p>
+        <div class="line_gray"></div>
+
+        <div class="title">
+
+            <h2>Featured Products</h2>
+            <p>Must have produtcs from our top sellers</p>
+
+        </div>
+
+        <div class="line_gray"></div>
 
     </div>
 
@@ -91,9 +99,7 @@ export default {
 
 
 
-<style scoped> 
-
-.featured {
+<style scoped> .featured > .title {
      text-align: center;
      margin: 6rem 0;
 
@@ -105,6 +111,13 @@ export default {
          font-size: 12px;
          color: var(--bg-gray-light);
      }
+ }
+
+ .line_gray {
+     background-color: var(--bg-gray-light);
+     height: 0.5px;
+     width: 20%;
+     margin: 0 5rem;
  }
 
  .category>a {
@@ -177,4 +190,5 @@ export default {
 
  .bg_gray_light {
      background-color: var(--bg-white-smoke);
- }</style>
+ }
+</style>

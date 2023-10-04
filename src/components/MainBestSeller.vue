@@ -7,10 +7,20 @@ export default {
 </script>
 
 <template>
-  <div class="featured">
 
-    <h2>Best Seller</h2>
-    <p>Must have produtcs from our top sellers</p>
+  <div class="featured d_flex jst_center align_center">
+
+    <div class="line_gray"></div>
+
+    <div class="title">
+
+      <h2>Best Seller</h2>
+      <p>Must have produtcs from our top sellers</p>
+
+    </div>
+
+
+    <div class="line_gray"></div>
 
   </div>
 
@@ -52,11 +62,13 @@ export default {
 
 
   </div>
+
 </template>
 
 
 <style scoped>
-.featured {
+
+.featured > .title {
   text-align: center;
   margin: 6rem 0;
 
@@ -67,55 +79,62 @@ export default {
   & p {
     font-size: 12px;
     color: var(--bg-gray-light);
-    padding: 0.5rem 0 0
+    padding: 0.5rem 0 0;
   }
+}
+.line_gray {
+  background-color: var(--bg-gray-light);
+  height: 0.5px;
+  width: 20%;
+  margin: 0 5rem;
 }
 
 .carosello>.card>img {
   width: 200px;
 }
-.prev, .next {
+
+.prev,
+.next {
   padding: 1rem 0.5rem;
   background-color: var(--bg-gray-light);
   border: none;
 }
-.prev>i, .next>i {
+
+.prev>i,
+.next>i {
   color: var(--bg-white-smoke);
   font-size: xx-small;
 }
 
 /* Utilities */
 .d_flex {
-    display: flex;
+  display: flex;
 }
 
 .f_row {
-    flex-direction: row;
+  flex-direction: row;
 }
 
 .f_column {
-    flex-direction: column;
+  flex-direction: column;
 }
 
 .jst_center {
-    justify-content: center;
+  justify-content: center;
 }
 
 .jst_end {
-    justify-content: end;
+  justify-content: end;
 }
 
 .jst_btw {
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
 .align_center {
-    align-items: center;
+  align-items: center;
 }
 
 
 /* Color */
-
-
-
 </style>
