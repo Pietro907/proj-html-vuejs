@@ -87,7 +87,7 @@ export default {
     background-color: var(--bg-gray-light);
     height: 0.5px;
     width: 20%;
-    margin: 0 5rem;
+    margin: 0 5rem 0.5rem;
 }
 .carosello>.card>img {
   width: 100%;

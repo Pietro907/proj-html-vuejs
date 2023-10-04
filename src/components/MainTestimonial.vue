@@ -43,7 +43,7 @@ export default {
 .container {
     background-image: url(../assets/img/home1/testimonials_home_1_bg.jpg);
     height: 400px;
-    margin: 7rem 0;
+    margin: 7rem 0 0;
     background-size: cover;
     background-position: right;
     background-repeat: no-repeat;
