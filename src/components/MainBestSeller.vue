@@ -32,7 +32,15 @@ export default {
         </div>
 
         <div class="card">
-          <img src="../assets/img/black_elegant_man/black_elegant_leather_jacket.jpg" alt="">
+          <img src="../assets/img/collections/spring/spring_printed_dress.jpg" alt="">
+        </div>
+
+        <div class="card">
+          <img src="../assets/img/modern/modern_love_tee.jpg" alt="">
+        </div>
+
+        <div class="card">
+          <img src="../assets/img/featured_produtcs/black_leather/black_leather_jacket.jpg" alt="">
         </div>
 
         <div class="card">
@@ -40,15 +48,7 @@ export default {
         </div>
 
         <div class="card">
-          <img src="../assets/img/black_elegant_man/black_elegant_leather_jacket.jpg" alt="">
-        </div>
-
-        <div class="card">
-          <img src="../assets/img/black_elegant_man/black_elegant_leather_jacket.jpg" alt="">
-        </div>
-
-        <div class="card">
-          <img src="../assets/img/black_elegant_man/black_elegant_leather_jacket.jpg" alt="">
+          <img src="../assets/img/hipster_black/hipster_black_top.jpg" alt="">
         </div>
 
         <div class="card">
@@ -68,7 +68,7 @@ export default {
             <img src="../assets/img/promotion/promo_box_1_bg.jpg" alt="">
 
             <div class="card collect d_flex f_column align_center">
-              
+
               <div class="title">
 
                 <h2>70% Off</h2>
