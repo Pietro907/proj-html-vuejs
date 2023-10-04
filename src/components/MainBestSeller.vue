@@ -121,25 +121,26 @@ export default {
 
 <style scoped>
 .featured>.title {
-  text-align: center;
-  margin: 6rem 0;
+    text-align: center;
+    margin: 6rem 0 2rem;
 
-  & h2 {
-    font-size: 29px;
-  }
+    & h2 {
+        font-size: 35px;
+    
+    }
 
-  & p {
-    font-size: 12px;
-    color: var(--bg-gray-light);
-    padding: 0.5rem 0 0;
-  }
+    & p {
+        font-size: 15px;
+        padding: 0.5rem 0 0;
+        color: var(--bg-gray-light);
+    }
 }
 
 .line_gray {
-  background-color: var(--bg-gray-light);
-  height: 0.5px;
-  width: 20%;
-  margin: 0 5rem 0.5rem;
+    background-color: var(--bg-gray-light);
+    height: 0.5px;
+    width: 20%;
+    margin: 2rem 5rem 0;
 }
 
 .carosello>.card>img {

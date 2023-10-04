@@ -31,8 +31,8 @@ export default {
 
                     <div class="info_cost">
                         <h5>Aenean lobortis sapien enim viverra</h5>
-                        <span>September 9th, 2015</span>
-                        <span>0 Comments</span>
+                        <span class="comments">September 9th, 2015</span>
+                        <span class="comments"> | 0 Comments</span>
                         <p>Donec finibus sit amet orci eget ultricies. Praesent posuere ante ut erat fringilla,</p>
                     </div>
 
@@ -45,8 +45,8 @@ export default {
 
                     <div class="info_cost">
                         <h5>Aenean lobortis sapien enim viverra</h5>
-                        <span>September 9th, 2015</span>
-                        <span>0 Comments</span>
+                        <span class="comments">September 9th, 2015</span>
+                        <span class="comments"> | 0 Comments</span>
                         <p>Donec finibus sit amet orci eget ultricies. Praesent posuere ante ut erat fringilla,</p>
                     </div>
 
@@ -59,8 +59,8 @@ export default {
 
                     <div class="info_cost">
                         <h5>Aenean lobortis sapien enim viverra</h5>
-                        <span>September 9th, 2015</span>
-                        <span>0 Comments</span>
+                        <span class="comments">September 9th, 2015</span>
+                        <span class="comments"> | 0 Comments</span>
                         <p>Donec finibus sit amet orci eget ultricies. Praesent posuere ante ut erat fringilla,</p>
                     </div>
 
@@ -69,28 +69,21 @@ export default {
 
         </div>
     </div>
-    <h1>CIAO</h1>
-    <h1>CIAO</h1>
-    <h1>CIAO</h1>
-    <h1>CIAO</h1>
-    <h1>CIAO</h1>
-    <h1>CIAO</h1>
-    <h1>CIAO</h1>
-    <h1>CIAO</h1>
+
 </template>
 
 <style scoped>
 .featured>.title {
     text-align: center;
-    margin: 6rem 0;
+    margin: 6rem 0 2rem;
 
     & h2 {
-        font-size: 29px;
-        padding: 0.5rem 0;
+        font-size: 35px;
+    
     }
 
     & p {
-        font-size: 12px;
+        font-size: 15px;
         color: var(--bg-gray-light);
     }
 }
@@ -99,7 +92,7 @@ export default {
     background-color: var(--bg-gray-light);
     height: 0.5px;
     width: 20%;
-    margin: 0 5rem 0.5rem;
+    margin: 2rem 5rem 0;
 }
 .r_60 {
      width: 60%;
@@ -112,16 +105,17 @@ export default {
  }
 
  .info_cost>h5 {
-     padding: 1rem 0 0.5rem;
+     padding: 1rem 0 0.2rem;
  }
 
- .info_cost>h6 {
-     color: var(--bg-gray-light);
+ .info_cost>.comments {
+    font-size: 12px;
+    color: var(--bg-gray-light);
  }
 
  p {
      display: inline-block;
-     padding: 0.5rem 0.5rem 0 0;
+     padding: 1rem 0.5rem 0 0;
      font-size: 12px;
  }
 
