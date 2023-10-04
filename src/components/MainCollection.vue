@@ -51,6 +51,7 @@ export default {
 
             <div class="col">
                 <div class="card overview">
+                    
                     <img src="../assets/img/collections/autumn_collection_bg.jpg" alt="">
 
                     <div class="card collect d_flex f_column align_center">

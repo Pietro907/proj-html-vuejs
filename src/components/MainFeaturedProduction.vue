@@ -44,10 +44,12 @@ export default {
                     <img src="../assets/img/black_elegant_man/black_elegant_leather_jacket.jpg" alt="">
 
                     <div class="info_cost">
+
                         <h5>Black Leather Jacket</h5>
                         <h6>Men, Jackets, Jeans</h6>
                         <p class="style_line">$235</p>
                         <p>$200</p>
+                        
                     </div>
 
                 </div>

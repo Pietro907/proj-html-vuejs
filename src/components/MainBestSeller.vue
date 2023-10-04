@@ -7,7 +7,6 @@ export default {
 </script>
 
 <template>
-
   <div class="featured d_flex jst_center align_center">
 
     <div class="line_gray"></div>
@@ -60,15 +59,68 @@ export default {
 
     </div>
 
+    <div class="container offers">
+      <div class="row">
+
+        <div class="col d_flex jst_center align-center">
+          <div class="card overview mx_1">
+
+            <img src="../assets/img/promotion/promo_box_1_bg.jpg" alt="">
+
+            <div class="card collect d_flex f_column align_center">
+              
+              <div class="title">
+
+                <h2>70% Off</h2>
+                <p>Vivamus tempor leo lacus, feugiat <br> ut magna aliquam erat</p>
+
+              </div>
+
+
+              <div class="btn">
+
+                <button class="color" type="button">VIEW MORE</button>
+
+              </div>
+            </div>
+
+          </div>
+
+          <div class="card overview mx_1">
+
+            <img src="../assets/img/promotion/promo_box_2_bg.jpg" alt="">
+
+            <div class="card collect d_flex f_column align_center">
+
+              <div class="title">
+
+                <h2>Free Shipping</h2>
+                <p>Vivamus tempor leo lacus, feugiat <br> ut magna aliquam erat</p>
+
+              </div>
+
+
+              <div class="btn">
+
+                <button class="color" type="button">VIEW MORE</button>
+
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
 
   </div>
-
 </template>
 
 
 <style scoped>
-
-.featured > .title {
+.featured>.title {
   text-align: center;
   margin: 6rem 0;
 
@@ -82,6 +134,7 @@ export default {
     padding: 0.5rem 0 0;
   }
 }
+
 .line_gray {
   background-color: var(--bg-gray-light);
   height: 0.5px;
@@ -105,6 +158,52 @@ export default {
   color: var(--bg-white-smoke);
   font-size: xx-small;
 }
+
+.offers {
+  background-image: url(../assets/img/bkgd_confetti-compressor.jpg);
+  background-size: cover;
+  background-position: right;
+  padding: 3rem;
+}
+
+.collect {
+
+  height: 430px;
+  padding: 0 0 5rem;
+  margin: 4rem 0 0;
+  position: absolute;
+  top: 20px;
+  left: 40px;
+
+  & h2 {
+    color: var(--bg-primary);
+    font-size: 35px;
+  }
+
+  & p {
+    color: var(--bg-white-smoke);
+    font-size: 15px;
+    margin: 0 0 1.5rem
+  }
+}
+
+.btn>button {
+  font-size: 9px;
+  padding: 0.6rem 1.5rem;
+  border-radius: 20px;
+  border-color: var(--bg-primary);
+  color: var(--bg-primary);
+  margin: 0 8rem 0 0;
+}
+
+.overview {
+  position: relative;
+}
+
+.card>img {
+  width: 450px;
+}
+
 
 /* Utilities */
 .d_flex {
@@ -135,6 +234,13 @@ export default {
   align-items: center;
 }
 
+.mx_1 {
+  margin: 0 1rem;
+}
 
 /* Color */
+
+.color {
+  background-color: #f5f5f523;
+}
 </style>
