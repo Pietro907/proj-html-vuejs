@@ -41,7 +41,15 @@ export default {
 
             <div class="col">
                 <div class="card products">
-                    <img src="../assets/img/black_elegant_man/black_elegant_leather_jacket.jpg" alt="">
+
+                    <img class="first_img" src="../assets/img/black_elegant_man/black_elegant_leather_jacket.jpg" alt="">
+
+                    <div class="hover_img">
+                        <img class="first_img2" src="../assets/img/black_elegant_man/black_elegant_leather_jacket.jpg"
+                            alt="">
+
+                        <i class="fa-regular fa-check-square"></i>
+                    </div>
 
                     <div class="info_cost">
 
@@ -57,7 +65,15 @@ export default {
 
             <div class="col">
                 <div class="card products">
-                    <img src="../assets/img/featured_produtcs/black_leather/black_leather_suit.jpg" alt="">
+
+                    <img class="first_img" src="../assets/img/featured_produtcs/black_leather/black_leather_suit.jpg" alt="">
+
+                    <div class="hover_img">
+                        <img class="first_img2" src="../assets/img/featured_produtcs/black_leather/black_leather_suit.jpg"
+                            alt="">
+
+                        <i class="fa-regular fa-check-square"></i>
+                    </div>
 
                     <div class="info_cost">
                         <h5>Black Leather Suit</h5>
@@ -69,8 +85,18 @@ export default {
             </div>
 
             <div class="col">
+
                 <div class="card products">
-                    <img src="../assets/img/featured_produtcs/blue_jacket/blue_jacket_and_white_stripe_tee.jpg" alt="">
+
+                     <img class="first_img" src="../assets/img/featured_produtcs/blue_jacket/blue_jacket_and_white_stripe_tee.jpg" alt="">
+
+                    <div class="hover_img">
+
+                        <img class="first_img2" src="../assets/img/featured_produtcs/blue_jacket/blue_jacket_and_white_stripe_tee.jpg" alt="">
+
+                        <i class="fa-regular fa-check-square"></i>
+
+                    </div>
 
                     <div class="info_cost">
                         <h5>Blue Jacket & Stripe Tee</h5>
@@ -83,7 +109,16 @@ export default {
 
             <div class="col">
                 <div class="card products">
-                    <img src="../assets/img/featured_produtcs/modern_black/modern_black_leather_suit.jpg" alt="">
+                    
+                    <img class="first_img" src="../assets/img/featured_produtcs/modern_black/modern_black_leather_suit.jpg" alt="">
+
+                    <div class="hover_img">
+
+                        <img class="first_img2" src="../assets/img/featured_produtcs/modern_black/modern_black_leather_suit.jpg" alt="">
+
+                        <i class="fa-regular fa-check-square"></i>
+                        
+                    </div>
 
                     <div class="info_cost">
                         <h5>Modern Black Leather Suit</h5>
@@ -140,9 +175,63 @@ export default {
      padding: 2rem 0;
  }
 
- .products>img {
-     width: 230px;
+ .card {
+     position: relative;
  }
+
+ .products>img,
+ .hover_img>.first_img,
+ .hover_img>.first_img2 {
+     width: 230px;
+     object-fit: contain;
+ }
+
+ .hove_img {
+     position: absolute;
+     top: 0;
+     right: 0;
+     height: 100%;
+     width: 100%;
+     opacity: 0;
+     transition: .5s ease;
+ }
+
+ .card:hover .first_img {
+     opacity: 0.3;
+     display: none;
+ }
+
+ .card:hover .first_img2 {
+     opacity: 0.3;
+ }
+
+ .first_img:hover {
+     display: none;
+ }
+
+ .card:hover .hover_img {
+     display: block;
+     height: 302px;
+     width: 230px;
+     background-color: rgba(0, 255, 255, 0.635);
+     opacity: 0.9;
+ }
+
+ .card .hover_img {
+     display: none;
+ }
+
+ .hover_img>i {
+     background-color: var(--bg-footer-copy);
+     color: var(--bg-primary);
+     padding: 1rem;
+     border-radius: 50%;
+     position: absolute;
+     top: 40%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+ }
+
 
  .info_cost>h5 {
      padding: 1rem 0 0.5rem;
@@ -194,5 +283,4 @@ export default {
 
  .bg_gray_light {
      background-color: var(--bg-white-smoke);
- }
-</style>
+ }</style>
