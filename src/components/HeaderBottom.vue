@@ -98,9 +98,13 @@ nav a:hover {
     padding: 0.5rem 1rem;
     border-radius: 20px;
     font-size: xx-small;
+    background-color: var(--bg-gray-light);
+    border-color: var(--bg-gray-light);
+    color: var(--bg-white-smoke);
+}
+.btn_shop_now > button:hover {
     background-color: var(--bg-blue-light);
     border-color: var(--bg-blue-light);
-    color: var(--bg-white-smoke);
 }
 
 .icon_search > a {
