@@ -43,30 +43,47 @@ export default {
                     <h4>Top Rated Products</h4>
                 </div>
 
-                <div class="card products d_flex f_column">
+                <div class="card products">
 
-                    <div class="info_cost">
+                    <div class="info d_flex ">
 
-                        <h5>Leather Gloves</h5>
-                        <i class="fa-solid fa-star"></i>
-                        <p class="style_line"><b>$45</b></p>
+                        <div class="info_cost d_flex f_column">
+
+                            <h5>Leather Gloves</h5>
+                            <i class="fa-solid fa-star"></i>
+                            <p class="style_line"><b>$45</b></p>
+
+                        </div>
+
+                        <div class="logo_img">
+                            <img src="../assets/img/leather_gloves/leather_gloves-120x156.jpg" alt="">
+                        </div>
 
                     </div>
+
 
                     <div class="line_gray"></div>
 
                 </div>
 
-                <div class="card products d_flex f_column">
+                <div class="card products">
 
-                    <div class="info_cost">
+                    <div class="info d_flex ">
 
-                        <h5>Black Leather Jacket</h5>
-                        <i class="fa-solid fa-star"></i>
+                        <div class="info_cost d_flex f_column">
 
-                        <div class="cost d_flex align_center jst_start">
-                            <p class="style_line_through"><b>$235</b></p>
-                            <span class="style_line_underline"><b>$235</b></span>
+                            <h5>Black Leather Jacket</h5>
+                            <i class="fa-solid fa-star"></i>
+
+                            <div class="cost d_flex align_center jst_start">
+                                <p class="style_line_through"><b>$235</b></p>
+                                <span class="style_line_underline"><b>$235</b></span>
+                            </div>
+
+                        </div>
+
+                        <div class="logo_img">
+                            <img src="../assets/img/black_elegant_man/black_elegant_leather_jacket-120x156.jpg" alt="">
                         </div>
 
                     </div>
@@ -76,15 +93,23 @@ export default {
                 </div>
 
                 <div class="card products d_flex f_column">
+                    <div class="info d_flex">
 
-                    <div class="info_cost">
+                        <div class="info_cost">
 
-                        <h5>Spring Printed Dress</h5>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <p class="style_line"><b>$47</b></p>
+                            <h5>Spring Printed Dress</h5>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <p class="style_line"><b>$47</b></p>
+
+                        </div>
+
+                        <div class="logo_img">
+                            <img src="../assets/img/collections/spring/spring_printed_dress-120x156.jpg" alt="">
+                        </div>
 
                     </div>
+
 
                     <div class="line_gray"></div>
 
@@ -93,71 +118,71 @@ export default {
             </div>
 
             <div class="col logo_col_1">
-
+    
                 <div class="card title">
                     <h4>Recent Posts</h4>
                 </div>
-
+    
                 <div class="card address">
-
+    
                     <div class="top"><i class="fa-solid fa-angle-right"></i>
                         <span>Aenean lobortis sapien enim viverra</span>
                     </div>
-
+    
                     <div class="line_gray"></div>
-
+    
                     <div class="bot">
                         <i class="fa-solid fa-angle-right"></i>
                         <span>Duis ac massa semper maximus</span>
                     </div>
-
+    
                     <div class="line_gray"></div>
-
+    
                 </div>
-
+    
                 <div class="card address">
-
+    
                     <div class="top"><i class="fa-solid fa-angle-right"></i>
                         <span>Aenean lobortis sapien enim viverra</span>
                     </div>
-
+    
                     <div class="line_gray"></div>
-
+    
                     <div class="bot">
                         <i class="fa-solid fa-angle-right"></i>
                         <span>Duis ac massa semper maximus</span>
                     </div>
-
+    
                     <div class="line_gray"></div>
-
+    
                 </div>
-
+    
                 <div class="card address">
-
+    
                     <div class="top"><i class="fa-solid fa-angle-right"></i>
                         <span>Aenean lobortis sapien enim viverra</span>
                     </div>
-
+    
                     <div class="line_gray"></div>
-
+    
                     <div class="bot">
                         <i class="fa-solid fa-angle-right"></i>
                         <span>Duis ac massa semper maximus</span>
                     </div>
-
+    
                     <div class="line_gray"></div>
-
+    
                 </div>
-
+    
             </div>
-
+    
             <div class="col logo_col_1">
-
-                <div class="card title all_tags d_flex f_column f_wrap">
+    
+                <div class="card title all_tags d_flex f_column">
                     <h4>Tags</h4>
-
-                    <div class="tags d_flex jst_center f_column f_wrap">
-
+    
+                    <div class="tags d_flex jst_center  f_wrap">
+    
                         <a href="">Black</a>
                         <a href="">boots</a>
                         <a href="">Brown</a>
@@ -180,13 +205,14 @@ export default {
                         <a href="">Warm</a>
                         <a href="">White</a>
                         <a href="">winter</a>
-
+    
                     </div>
-
+    
                 </div>
             </div>
-
+        
         </div>
+
     </div>
 </template>
 
@@ -198,24 +224,32 @@ export default {
 
 .r_60 {
     width: 60%;
-    margin: 0 auto;
+    margin: 0 auto 5rem;
     padding: 2rem 0;
+    
 }
 
 .card {
-    width: calc(100% /12 *)
+    width: 240px;
 }
 
 .logo_shop {
-    width: 230px;
+    width: 240px;
+}
+
+.logo_img>img {
+    width: 90px;
+    margin: 0.5rem 0 -0.5rem 4rem;
 }
 
 .logo_col {
     padding: 1rem;
+    height: 350px;
 }
 
 .logo_col_1 {
     padding: 0.4rem;
+    height: 350px;
 }
 
 .logo_col>.card {
@@ -228,6 +262,7 @@ p {
 
 .address {
     color: var(--bg-gray-light);
+    padding: 1rem 0 0;
 }
 
 .brands_logo>i {
@@ -239,7 +274,9 @@ p {
     color: var(--bg-white-smoke);
     font-size: 20px;
 }
-
+.info{
+    padding: 0 0 0.5rem;
+}
 .info_cost>h5 {
     padding: 2rem 0 0.5rem;
     color: var(--bg-gray-light);
@@ -247,7 +284,7 @@ p {
 
 .info_cost>.fa-star {
     color: var(--bg-heaven);
-    margin-bottom: 0.5rem;
+    margin: 0.5rem 0;
 }
 
 .info_cost>h5 {
@@ -262,14 +299,23 @@ p {
 
 .cost>p {
     color: var(--bg-white-smoke);
-    padding: 0.5rem 0.5rem 0.5rem 0;
+    padding: 1rem 0.5rem 1rem 0;
 }
 
 .line_gray {
     background-color: var(--bg-gray-light);
     height: 0.5px;
-    width: 100%;
     margin: 1rem 0 0;
+}
+
+.tags>a {
+    text-decoration: none;
+    color: var(--bg-gray-light);
+    border: 0.5px solid var(--bg-gray-light);
+    text-align: center;
+    padding: 0.5rem;
+    margin: 0.2rem;
+    font-size: 18px;
 }
 
 .style_line_through {
@@ -282,13 +328,13 @@ p {
 }
 
 .top {
-    font-size: 12px;
-    padding: 1.5rem 0 0;
+    font-size: 15px;
+    padding: 1rem 0;
 }
 
 .bot {
-    font-size: 12px;
-    padding: 1.5rem 0 0 0;
+    font-size: 15px;
+    padding: 1.5rem 0 0.5rem;
 }
 
 .top>i,
@@ -309,7 +355,7 @@ p {
 }
 
 .f_wrap {
-    flex-wrap:
+    flex-wrap: wrap;
 }
 
 .jst_center {
@@ -333,4 +379,5 @@ p {
 }
 
 
-/* Color */</style>
+/* Color */
+</style>
