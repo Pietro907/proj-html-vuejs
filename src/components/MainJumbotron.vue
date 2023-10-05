@@ -56,7 +56,7 @@
     background-image: url(../assets/img/home1/home1_slide_three_bg_2.jpg);
     height: 510px;
     background-size: cover;
-    background-position: right;
+    background-position-y: -40px;
     background-repeat: no-repeat;
     position: relative;
 }
@@ -64,7 +64,7 @@
     height: 430px;
     padding: 0 0 5rem;
     text-align: center;
-    margin: 2rem 0 0;
+    margin: 6rem 0 0;
     & h1{
         color: var(--bg-primary);
         font-size: 50px;
