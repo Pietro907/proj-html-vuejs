@@ -83,8 +83,9 @@ export default {
     text-decoration: none;
     color: var(--bg-gray-light);
     padding: 2.8rem 1rem 0;
+    font-size: 15px;
     & i{
-        font-size: 6px;
+        font-size: 12px;
     }
 }
 nav a:hover {
