@@ -125,13 +125,13 @@ export default {
  }
 
  .category>a {
-     background-color: var(--bg-white-smoke);
+     background-color: var(--bg-primary);
      padding: 1rem 2.5rem;
      border: 1px solid var(--bg-gray-light);
  }
 
  .category>a:hover {
-     background-color: var(--bg-primary);
+     background-color: var(--bg-white-smoke);
  }
 
  .r_60 {
