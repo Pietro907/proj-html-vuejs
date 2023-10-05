@@ -2,6 +2,30 @@
 <script>
 export default {
     name: 'HeaderBottom',
+    data(){
+        return {
+            navMenuBot: [
+                {
+                    name: 'Home'
+                },
+                {
+                    name: 'Shop'
+                },
+                {
+                    name: 'Products'
+                },
+                {
+                    name: 'Categories'
+                },
+                {
+                    name: 'News'
+                },
+                {
+                    name: 'Elements'
+                },
+            ],
+        }
+    }
 }
 </script>
 
@@ -22,13 +46,13 @@ export default {
 
                     <nav>
 
-                        <a href="#">Home <i class="fa-solid fa-angle-down"></i></a>
-                        <a href="#">Shop <i class="fa-solid fa-angle-down"></i></a>
+                        <a v-for="(menu, index) in navMenuBot" href="#">{{menu.name}}<i class="fa-solid fa-angle-down"></i></a>
+                        <!-- <a href="#">Shop <i class="fa-solid fa-angle-down"></i></a>
                         <a href="#">Products <i class="fa-solid fa-angle-down"></i></a>
                         <a href="#">Categories <i class="fa-solid fa-angle-down"></i></a>
                         <a href="#">News</a>
                         <a href="#">Elements <i class="fa-solid fa-angle-down"></i></a>
-
+ -->
                     </nav>
 
                 </div>

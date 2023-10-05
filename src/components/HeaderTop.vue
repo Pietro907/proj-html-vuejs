@@ -2,7 +2,36 @@
 <script>
 export default {
     name: 'HeaderTop',
+    data() {
+        return {
+            navMenuTop: [
+                {
+                    name: 'Shopping Cart'
+                },
+                {
+                    name: 'My Account'
+                },
+                {
+                    name: 'Cart'
+                },
 
+            ],
+            brandsTop: [
+                {
+                    icon: 'fa-brands fa-facebook-f'
+                },
+                {
+                    icon: 'fa-solid fa-brands fa-twitter'
+                },
+                {
+                    icon: 'fa-solid fa-brands fa-instagram'
+                },
+                {
+                    icon: 'fa-solid fa-brands fa-youtube'
+                },
+            ]
+        }
+    }
 }
 </script>
 
@@ -15,10 +44,10 @@ export default {
             <div class="col">
                 <div class="card brands_logo">
 
-                    <i class="fa-brands fa-facebook-f"></i>
-                    <i class="fa-solid fa-brands fa-twitter"></i>
+                    <i v-for="(brand, index) in brandsTop" :class="brand.icon"></i>
+                    <!-- <i class="fa-solid fa-brands fa-twitter"></i>
                     <i class="fa-solid fa-brands fa-instagram"></i>
-                    <i class="fa-solid fa-brands fa-youtube"></i>
+                    <i class="fa-solid fa-brands fa-youtube"></i> -->
 
                 </div>
             </div>
@@ -27,15 +56,15 @@ export default {
             <div class="col d_flex jst_end">
                 <div class="card menu_shopping">
 
-                    <a href="#">Shopping Cart</a>
-                    <a class="border_account" href="#">My Account <i class="fa-solid fa-angle-down"></i></a>
+                    <a href="#">{{ navMenuTop[0].name }}</a>
+                    <a class="border_account" href="#">{{ navMenuTop[1].name }} <i class="fa-solid fa-angle-down"></i></a>
 
                 </div>
 
                 <div class="card cart bg_gray_light">
 
                     <i class="fa-solid fa-cart-shopping"></i>
-                    <a href="#">CART <i class="fa-solid fa-angle-down"></i></a>
+                    <a href="#">{{ navMenuTop[2].name.toUpperCase() }}<i class="fa-solid fa-angle-down"></i></a>
 
                 </div>
             </div>
@@ -74,20 +103,21 @@ export default {
     padding: 0 0 0 4rem;
 }
 
-.menu_shopping > a {
+.menu_shopping>a {
     padding: 1rem 0.5rem;
     text-decoration: none;
     color: var(--bg-gray-light);
+
     & i {
         font-size: 8px;
     }
 }
 
-.cart > a {
+.cart>a {
     color: var(--bg-secondary);
     padding: 1rem 0.5rem;
     text-decoration: none;
-    
+
 }
 
 .col>.card {
@@ -134,4 +164,5 @@ export default {
 
 .bg_gray_light {
     background-color: var(--bg-white-smoke);
-}</style>
+}
+</style>
