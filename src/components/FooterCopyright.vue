@@ -13,9 +13,9 @@ export default {
             <div class="col">
                 <div class="card d_flex jst_center">
                     
-                    <p><i class="fa-regular fa-copyright"></i>Copyright 2021 - 2020 </p>
-                    <p> Avada Theme by Theme Fusion </p>
-                    <p> Powered by WordPress </p>
+                    <p><i class="fa-regular fa-copyright"></i> Copyright 2021 - 2020 |</p>
+                    <p class="ps_05">Avada Theme by Theme Fusion | </p>
+                    <p class="ps_05">Powered by WordPress </p>
                     
                 </div>
                 <div class="card d_flex jst_center">
@@ -69,10 +69,21 @@ export default {
  }
 
 
+.brd_rght{
+border-right: 1px solid var(--bg-white-smoke);
+
+}
+
+
+
+
  /* Color */
 
 
-
+/* Spacing */
+.ps_05{
+    margin-left: 0.3rem;
+}
 
 
 
