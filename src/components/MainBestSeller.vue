@@ -32,23 +32,73 @@ export default {
         </div>
 
         <div class="card">
-          <img src="../assets/img/collections/spring/spring_printed_dress.jpg" alt="">
+
+          <img class="first_img" src="../assets/img/collections/spring/spring_printed_dress.jpg" alt="">
+
+          <div class="hover_img">
+
+            <img class="first_img2" src="../assets/img/collections/spring/spring_printed_dress.jpg" alt="">
+
+            <i class="fa-regular fa-check-square"></i>
+
+          </div>
+
         </div>
 
         <div class="card">
-          <img src="../assets/img/modern/modern_love_tee.jpg" alt="">
+
+          <img class="first_img" src="../assets/img/modern/modern_love_tee.jpg" alt="">
+
+          <div class="hover_img">
+
+            <img class="first_img2" src="../assets/img/modern/modern_love_tee.jpg" alt="">
+
+            <i class="fa-regular fa-check-square"></i>
+
+          </div>
+
+        </div>
+        
+        <div class="card">
+
+          <img class="first_img" src="../assets/img/featured_produtcs/black_leather/black_leather_jacket.jpg" alt="">
+
+          <div class="hover_img">
+
+            <img class="first_img2" src="../assets/img/modern/modern_love_tee.jpg" alt="">
+
+            <i class="fa-regular fa-check-square"></i>
+
+          </div>
+
         </div>
 
         <div class="card">
-          <img src="../assets/img/featured_produtcs/black_leather/black_leather_jacket.jpg" alt="">
+
+          <img class="first_img" src="../assets/img/black_elegant_man/black_elegant_leather_jacket.jpg" alt="">
+
+          <div class="hover_img">
+
+            <img class="first_img2" src="../assets/img/collections/spring/spring_printed_dress.jpg" alt="">
+
+            <i class="fa-regular fa-check-square"></i>
+
+          </div>
+
         </div>
 
         <div class="card">
-          <img src="../assets/img/black_elegant_man/black_elegant_leather_jacket.jpg" alt="">
-        </div>
 
-        <div class="card">
-          <img src="../assets/img/hipster_black/hipster_black_top.jpg" alt="">
+          <img class="first_img" src="../assets/img/hipster_black/hipster_black_top.jpg" alt="">
+
+          <div class="hover_img">
+
+            <img class="first_img2" src="../assets/img/collections/spring/spring_printed_dress.jpg" alt="">
+
+            <i class="fa-regular fa-check-square"></i>
+
+          </div>
+
         </div>
 
         <div class="card">
@@ -121,30 +171,87 @@ export default {
 
 <style scoped>
 .featured>.title {
-    text-align: center;
-    margin: 6rem 0 2rem;
+  text-align: center;
+  margin: 6rem 0 2rem;
 
-    & h2 {
-        font-size: 35px;
-    
-    }
+  & h2 {
+    font-size: 35px;
 
-    & p {
-        font-size: 15px;
-        padding: 0.5rem 0 0;
-        color: var(--bg-gray-light);
-    }
+  }
+
+  & p {
+    font-size: 15px;
+    padding: 0.5rem 0 0;
+    color: var(--bg-gray-light);
+  }
 }
 
 .line_gray {
-    background-color: var(--bg-gray-light);
-    height: 0.5px;
-    width: 20%;
-    margin: 2rem 5rem 0;
+  background-color: var(--bg-gray-light);
+  height: 0.5px;
+  width: 20%;
+  margin: 2rem 5rem 0;
 }
 
 .carosello>.card>img {
   width: 200px;
+}
+
+.card {
+  position: relative;
+}
+
+.products>img,
+.hover_img>.first_img,
+.hover_img>.first_img2 {
+  width: 200px;
+  object-fit: contain;
+}
+
+.hove_img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.card:hover .first_img {
+  opacity: 0.3;
+  display: none;
+}
+
+.card:hover .first_img2 {
+  opacity: 0.3;
+}
+
+.first_img:hover {
+  display: none;
+}
+
+.card:hover .hover_img {
+  display: block;
+  height: 260px;
+  width: 200px;
+  background-color: rgba(0, 255, 255, 0.635);
+  opacity: 0.9;
+}
+
+.card .hover_img {
+  display: none;
+}
+
+.hover_img>i {
+  background-color: var(--bg-footer-copy);
+  color: var(--bg-primary);
+  padding: 1rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .prev,
