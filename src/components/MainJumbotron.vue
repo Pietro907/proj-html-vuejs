@@ -39,6 +39,14 @@ export default {
                     image: 'src/assets/img/hipster_black/hipster_black_top.jpg'
                 },
             ],
+
+            squareJumbo: [
+                {
+                    icon : 'fa-solid fa-tag',
+                    unit: '$',
+                    price: '39',
+                },
+            ],
         
 
             /* methods: {
@@ -94,13 +102,13 @@ export default {
 
             <!-- Square position absolute -->
             <div class="square">
-                <i class="fa-solid fa-tag"></i>
+                <i :class="squareJumbo[0].icon"></i>
             </div>
 
             <!-- Square position absolute -->
             <div class="square1">
-                <span class="color_green small">$</span>
-                <span class="color_green number">39</span>
+                <span class="color_green small">{{squareJumbo[0].unit}}</span>
+                <span class="color_green number">{{squareJumbo[0].price}}</span>
                 <p>On Sale</p>
             </div>
 
@@ -164,13 +172,16 @@ export default {
     right: 15px;
     border-radius: 7px;
     background-color: var(--bg-primary);
-    padding: 1rem;
+    padding: 0.8rem;
     box-shadow: 1px 2px 3px 1px;
+}
+.square>i{
+    font-size: 25px;
 }
 
 .square1 {
     position: absolute;
-    top: 40px;
+    top: 45px;
     right: 15px;
     border-radius: 7px;
     background-color: var(--bg-primary);
