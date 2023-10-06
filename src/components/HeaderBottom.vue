@@ -106,7 +106,7 @@ export default {
 .nav_elemets > nav > a {
     text-decoration: none;
     color: var(--bg-gray-light);
-    padding: 2.8rem 1rem 0;
+    padding: 2.5rem 1rem 0;
     font-size: 15px;
     & i{
         font-size: 12px;

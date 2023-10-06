@@ -5,7 +5,24 @@
         name: 'MainJumbotron',
         data(){
             return {
-
+                menuJumbo: [
+                    {
+                        title: 'Brand New Arrivals'
+                    },
+                    {
+                        titleMini: 'New Collection From New York'
+                    },
+                    {
+                        titleBtn: [
+                            {
+                                name: 'View All',
+                            },
+                            {
+                                name: 'Lookbook',
+                            },
+                        ],
+                    },
+                ]
             }
         }
     }
@@ -13,29 +30,40 @@
 
 
 <template>
-    
+    <!-- Qui background-image! in .container -->
 <div class="container">
     <div class="row">
+
+        <!-- Colonna titolo centro image -->
         <div class="col d_flex jst_center">
             
+            <!-- Card centro image -->
             <div class="card new_arrivals d_flex f_column jst_center">
-                <h1>Brand New Arrivals</h1>
-                <h5>NEW COLLECTION FORM NEW YORK</h5>
 
+                <!-- Titolo e Sottotitolo -->
+                <h1>{{menuJumbo[0].title}}</h1>
+                <h5>{{ menuJumbo[1].titleMini.toUpperCase() }}</h5>
+
+                <!-- Button -->
                 <div class="btn">
 
-                    <button class="color m_05" type="button">VIEW ALL</button>
-                    <button class="color m_05" type="button">LOOKBOOK</button>
+                    <!-- Btn sx -->
+                    <button class="color m_05" type="button">{{menuJumbo[2].titleBtn[0].name.toUpperCase()}}</button>
+                    <!-- Btn dx -->
+                    <button class="color m_05" type="button">{{menuJumbo[2].titleBtn[1].name.toUpperCase()}}</button>
 
                 </div>
+
             </div>
 
         </div>
 
+        <!-- Square position absolute -->
         <div class="square">
             <i class="fa-solid fa-tag"></i>
         </div>
 
+        <!-- Square position absolute -->
         <div class="square1">
             <span class="color_green small">$</span>
             <span class="color_green number">39</span>
@@ -101,7 +129,7 @@
     right: 15px;
     border-radius: 7px;
     background-color: var(--bg-primary);
-    padding: 0.5rem;
+    padding: 0.7rem;
     box-shadow: 1px 2px 3px 1px;
     & .small {
         font-size: 9px;

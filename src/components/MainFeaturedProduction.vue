@@ -25,7 +25,7 @@ export default {
 
     </div>
 
-    <!-- Schede categoria -->
+    <!-- Schede categoria previsto Active al click e cambio card:hover in base alla categoria  -->
     <div class="category d_flex jst_center align_center">
 
         <a>Men</a>
@@ -35,11 +35,13 @@ export default {
     </div>
 
 
-    <!-- 4 card img -->
+
     <div class="container">
         <div class="row r_60 d_flex jst_center align_center">
 
+            <!-- Colonna img hover -->
             <div class="col">
+
                 <div class="card products">
 
                     <img class="first_img" src="../assets/img/black_elegant_man/black_elegant_leather_jacket.jpg" alt="">
@@ -63,10 +65,12 @@ export default {
                 </div>
             </div>
 
+            <!-- Colonna img hover -->
             <div class="col">
                 <div class="card products">
 
-                    <img class="first_img" src="../assets/img/featured_produtcs/black_leather/black_leather_suit.jpg" alt="">
+                    <img class="first_img" src="../assets/img/featured_produtcs/black_leather/black_leather_suit.jpg"
+                        alt="">
 
                     <div class="hover_img">
                         <img class="first_img2" src="../assets/img/featured_produtcs/black_leather/black_leather_suit.jpg"
@@ -84,15 +88,18 @@ export default {
                 </div>
             </div>
 
+            <!-- Colonna img hover -->
             <div class="col">
 
                 <div class="card products">
 
-                     <img class="first_img" src="../assets/img/featured_produtcs/blue_jacket/blue_jacket_and_white_stripe_tee.jpg" alt="">
+                    <img class="first_img"
+                        src="../assets/img/featured_produtcs/blue_jacket/blue_jacket_and_white_stripe_tee.jpg" alt="">
 
                     <div class="hover_img">
 
-                        <img class="first_img2" src="../assets/img/featured_produtcs/blue_jacket/blue_jacket_and_white_stripe_tee.jpg" alt="">
+                        <img class="first_img2"
+                            src="../assets/img/featured_produtcs/blue_jacket/blue_jacket_and_white_stripe_tee.jpg" alt="">
 
                         <i class="fa-regular fa-check-square"></i>
 
@@ -107,17 +114,20 @@ export default {
                 </div>
             </div>
 
+            <!-- Colonna img hover -->
             <div class="col">
                 <div class="card products">
-                    
-                    <img class="first_img" src="../assets/img/featured_produtcs/modern_black/modern_black_leather_suit.jpg" alt="">
+
+                    <img class="first_img" src="../assets/img/featured_produtcs/modern_black/modern_black_leather_suit.jpg"
+                        alt="">
 
                     <div class="hover_img">
 
-                        <img class="first_img2" src="../assets/img/featured_produtcs/modern_black/modern_black_leather_suit.jpg" alt="">
+                        <img class="first_img2"
+                            src="../assets/img/featured_produtcs/modern_black/modern_black_leather_suit.jpg" alt="">
 
                         <i class="fa-regular fa-check-square"></i>
-                        
+
                     </div>
 
                     <div class="info_cost">
@@ -166,7 +176,7 @@ export default {
  }
 
  .category>a:hover {
-     background-color: var(--bg-white-smoke);
+     background-color: var(--bg-gray-light);
  }
 
  .r_60 {
@@ -211,9 +221,10 @@ export default {
 
  .card:hover .hover_img {
      display: block;
-     height: 302px;
+     height: 299px;
      width: 230px;
      background-color: rgba(0, 255, 255, 0.635);
+     margin: 0 0 0.2rem;
      opacity: 0.9;
  }
 

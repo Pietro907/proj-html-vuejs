@@ -6,12 +6,15 @@ export default {
         return {
             navMenuTop: [
                 {
+                    id: 1,
                     name: 'Shopping Cart'
                 },
                 {
+                    id: 2,
                     name: 'My Account'
                 },
                 {
+                    id: 3,
                     name: 'Cart'
                 },
 
@@ -54,6 +57,7 @@ export default {
 
 
             <div class="col d_flex jst_end">
+                
                 <div class="card menu_shopping">
 
                     <a href="#">{{ navMenuTop[0].name }}</a>
@@ -77,7 +81,7 @@ export default {
 <style scoped>
 .container {
     border-bottom: 1px solid var(--bg-white-smoke);
-    font-size: x-small;
+    font-size: small;
 }
 
 .r_60 {

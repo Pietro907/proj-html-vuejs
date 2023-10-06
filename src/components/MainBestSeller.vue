@@ -62,7 +62,7 @@ export default {
 
             <img class="first_img2" src="../assets/img/modern/modern_love_tee.jpg" alt="">
 
-            <i class="fa-regular fa-check-square"></i>
+           <!--  <i class="fa-regular fa-check-square"></i> -->
 
           </div>
 
@@ -74,9 +74,9 @@ export default {
 
           <div class="hover_img">
 
-            <img class="first_img2" src="../assets/img/modern/modern_love_tee.jpg" alt="">
+            <img class="first_img2" src="../assets/img/featured_produtcs/black_leather/black_leather_jacket.jpg" alt="">
 
-            <i class="fa-regular fa-check-square"></i>
+            <!-- <i class="fa-regular fa-check-square"></i> -->
 
           </div>
 
@@ -88,9 +88,9 @@ export default {
 
           <div class="hover_img">
 
-            <img class="first_img2" src="../assets/img/collections/spring/spring_printed_dress.jpg" alt="">
+            <img class="first_img2" src="../assets/img/black_elegant_man/black_elegant_leather_jacket.jpg" alt="">
 
-            <i class="fa-regular fa-check-square"></i>
+            <!-- <i class="fa-regular fa-check-square"></i> -->
 
           </div>
 
@@ -102,9 +102,9 @@ export default {
 
           <div class="hover_img">
 
-            <img class="first_img2" src="../assets/img/collections/spring/spring_printed_dress.jpg" alt="">
+            <img class="first_img2" src="../assets/img/hipster_black/hipster_black_top.jpg" alt="">
 
-            <i class="fa-regular fa-check-square"></i>
+            <!-- <i class="fa-regular fa-check-square"></i> -->
 
           </div>
 
@@ -244,6 +244,7 @@ export default {
   display: block;
   height: 260px;
   width: 200px;
+  margin: 0 0 0.2rem;
   background-color: rgba(0, 255, 255, 0.635);
   opacity: 0.9;
 }

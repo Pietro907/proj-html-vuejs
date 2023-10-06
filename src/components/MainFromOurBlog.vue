@@ -7,6 +7,7 @@ export default {
 </script>
 
 <template>
+    <!-- Title Page -->
     <div class="featured d_flex jst_center align_center">
 
         <div class="line_gray"></div>
@@ -22,9 +23,11 @@ export default {
 
     </div>
 
+    <!-- Contenuti Blog -->
     <div class="container">
         <div class="row r_60 d_flex jst_center align_center">
 
+            <!-- Colonna blog -->
             <div class="col">
                 <div class="card products">
                     <img src="../assets/img/post/post_img_12-700x441.jpg" alt="">
@@ -39,6 +42,7 @@ export default {
                 </div>
             </div>
 
+            <!-- Colonna blog -->
             <div class="col">
                 <div class="card products">
                     <img src="../assets/img/post/post_img_11-700x441.jpg" alt="">
@@ -52,7 +56,8 @@ export default {
 
                 </div>
             </div>
-
+            s
+            <!-- Colonna blog -->
             <div class="col">
                 <div class="card products">
                     <img src="../assets/img/post/post_img_10-700x441.jpg" alt="">
@@ -69,7 +74,6 @@ export default {
 
         </div>
     </div>
-
 </template>
 
 <style scoped>
@@ -79,7 +83,7 @@ export default {
 
     & h2 {
         font-size: 35px;
-    
+
     }
 
     & p {
@@ -94,30 +98,31 @@ export default {
     width: 20%;
     margin: 2rem 5rem 0;
 }
+
 .r_60 {
-     width: 60%;
-     margin: 0 auto;
-     padding: 2rem 0;
- }
+    width: 60%;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
 
- .products>img {
-     width: 300px;
- }
+.products>img {
+    width: 300px;
+}
 
- .info_cost>h5 {
-     padding: 1rem 0 0.2rem;
- }
+.info_cost>h5 {
+    padding: 1rem 0 0.2rem;
+}
 
- .info_cost>.comments {
+.info_cost>.comments {
     font-size: 12px;
     color: var(--bg-gray-light);
- }
+}
 
- p {
-     display: inline-block;
-     padding: 1rem 0.5rem 0 0;
-     font-size: 12px;
- }
+p {
+    display: inline-block;
+    padding: 1rem 0.5rem 0 0;
+    font-size: 12px;
+}
 
 .col {
     margin: 0 15px 0;

@@ -10,6 +10,7 @@ export default {
     <div class="container">
         <div class="row r_60 d_flex">
 
+            <!-- Colonna singola con logo Avada -->
             <div class="col logo_col d_flex f_column jst_start">
 
                 <div class="card logo_shop">
@@ -37,6 +38,7 @@ export default {
 
             </div>
 
+            <!-- Colonna singola Top Rated Products -->
             <div class="col logo_col_1">
 
                 <div class="card title">
@@ -88,7 +90,7 @@ export default {
 
                     </div>
 
-                    <div class="line_gray"></div>
+                    <div style="margin: 0.65rem 0 0;" class="line_gray"></div>
 
                 </div>
 
@@ -117,72 +119,74 @@ export default {
 
             </div>
 
+            <!-- Colonna singola Recent Post -->
             <div class="col logo_col_1">
-    
+
                 <div class="card title">
                     <h4>Recent Posts</h4>
                 </div>
-    
+
                 <div class="card address">
-    
+
                     <div class="top"><i class="fa-solid fa-angle-right"></i>
                         <span>Aenean lobortis sapien enim viverra</span>
                     </div>
-    
+
                     <div class="line_gray"></div>
-    
+
                     <div class="bot">
                         <i class="fa-solid fa-angle-right"></i>
                         <span>Duis ac massa semper maximus</span>
                     </div>
-    
+
                     <div class="line_gray"></div>
-    
+
                 </div>
-    
+
                 <div class="card address">
-    
+
                     <div class="top"><i class="fa-solid fa-angle-right"></i>
                         <span>Aenean lobortis sapien enim viverra</span>
                     </div>
-    
+
                     <div class="line_gray"></div>
-    
+
                     <div class="bot">
                         <i class="fa-solid fa-angle-right"></i>
                         <span>Duis ac massa semper maximus</span>
                     </div>
-    
+
                     <div class="line_gray"></div>
-    
+
                 </div>
-    
+
                 <div class="card address">
-    
+
                     <div class="top"><i class="fa-solid fa-angle-right"></i>
                         <span>Aenean lobortis sapien enim viverra</span>
                     </div>
-    
+
                     <div class="line_gray"></div>
-    
+
                     <div class="bot">
                         <i class="fa-solid fa-angle-right"></i>
                         <span>Duis ac massa semper maximus</span>
                     </div>
-    
+
                     <div class="line_gray"></div>
-    
+
                 </div>
-    
+
             </div>
-    
+            
+            <!-- Colonna singola con Tags vari -->
             <div class="col logo_col_1">
-    
+
                 <div class="card title all_tags d_flex f_column">
                     <h4>Tags</h4>
-    
+
                     <div class="tags d_flex jst_center  f_wrap">
-    
+
                         <a href="">Black</a>
                         <a href="">boots</a>
                         <a href="">Brown</a>
@@ -205,12 +209,12 @@ export default {
                         <a href="">Warm</a>
                         <a href="">White</a>
                         <a href="">winter</a>
-    
+
                     </div>
-    
+
                 </div>
             </div>
-        
+
         </div>
 
     </div>
@@ -226,7 +230,7 @@ export default {
     width: 60%;
     margin: 0 auto 5rem;
     padding: 2rem 0;
-    
+
 }
 
 .card {
@@ -274,9 +278,11 @@ p {
     color: var(--bg-white-smoke);
     font-size: 20px;
 }
-.info{
+
+.info {
     padding: 0 0 0.5rem;
 }
+
 .info_cost>h5 {
     padding: 2rem 0 0.5rem;
     color: var(--bg-gray-light);
@@ -314,12 +320,13 @@ p {
     border: 0.5px solid var(--bg-gray-light);
     text-align: center;
     padding: 0.5rem;
-    margin: 0.2rem;
+    margin: 0.3rem;
     font-size: 18px;
 }
 
 .style_line_through {
     text-decoration-line: line-through;
+    padding: 0.5rem 0 0;
 }
 
 .style_line_underline {
@@ -340,6 +347,10 @@ p {
 .top>i,
 .bot>i {
     padding-right: 0.5rem;
+}
+
+h4 {
+    padding: 0 0 1rem;
 }
 
 
@@ -379,5 +390,4 @@ p {
 }
 
 
-/* Color */
-</style>
+/* Color */</style>
