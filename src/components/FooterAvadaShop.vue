@@ -8,7 +8,7 @@ export default {
 
 <template>
     <div class="container">
-        <div class="row r_60 d_flex">
+        <div class="row r_60 d_flex jst_center">
 
             <!-- Colonna singola con logo Avada -->
             <div class="col logo_col d_flex f_column jst_start">
@@ -223,7 +223,7 @@ export default {
 <style scoped>
 .container {
     background-color: var(--bg-footer-avada);
-    padding: 2rem 0;
+    padding: 2rem 0 4rem;
 }
 
 .r_60 {
@@ -246,14 +246,15 @@ export default {
     margin: 0.5rem 0 -0.5rem 4rem;
 }
 
-.logo_col {
-    padding: 1rem;
+.logo_col{
+    padding: 2rem;
     height: 350px;
 }
 
 .logo_col_1 {
     padding: 0.4rem;
     height: 350px;
+    margin: 1.5rem;
 }
 
 .logo_col>.card {

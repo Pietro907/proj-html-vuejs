@@ -44,6 +44,7 @@ export default {
 .container {
     background: var(--bg-footer-sub);
     height: 220px;
+    padding: 0 0 -2rem;
 }
 
 .subscribe {

@@ -45,8 +45,10 @@ export default {
 
             <div style="width: 100%; margin: 8rem 0 0; display: inline-block;" class="btn_a">
 
-              <a style="margin-left: 0.5rem;  text-decoration: none; color: var(--bg-primary);" href=""><i class="fa-solid fa-cart-shopping"></i> Add to cart</a>
-              <a style="margin-left: 1.5rem;  text-decoration: none; color: var(--bg-primary);" href=""><i class="fa-solid fa-bars"></i> Details</a>
+              <a style="margin-left: 0.5rem;  text-decoration: none; color: var(--bg-primary);" href=""><i
+                  class="fa-solid fa-cart-shopping"></i> Add to cart</a>
+              <a style="margin-left: 1.5rem;  text-decoration: none; color: var(--bg-primary);" href=""><i
+                  class="fa-solid fa-bars"></i> Details</a>
 
             </div>
 
@@ -62,12 +64,23 @@ export default {
 
             <img class="first_img2" src="../assets/img/modern/modern_love_tee.jpg" alt="">
 
-           <!--  <i class="fa-regular fa-check-square"></i> -->
+            <h5 style="margin:0 0 1rem;">Modern Loce Tee</h5>
+            <p style="margin: 2rem 0 1rem;">Women, T-Shirts</p>
+            <p class="p_2" style="margin: 4rem 0;">$68</p>
+
+            <div style="width: 100%; margin: 8rem 0 0; display: inline-block;" class="btn_a">
+
+              <a style="margin-left: 0.5rem;  text-decoration: none; color: var(--bg-primary);" href=""><i
+                  class="fa-solid fa-cart-shopping"></i> Add to cart</a>
+              <a style="margin-left: 1.5rem;  text-decoration: none; color: var(--bg-primary);" href=""><i
+                  class="fa-solid fa-bars"></i> Details</a>
+
+            </div>
 
           </div>
 
         </div>
-        
+
         <div class="card">
 
           <img class="first_img" src="../assets/img/featured_produtcs/black_leather/black_leather_jacket.jpg" alt="">
@@ -76,7 +89,18 @@ export default {
 
             <img class="first_img2" src="../assets/img/featured_produtcs/black_leather/black_leather_jacket.jpg" alt="">
 
-            <!-- <i class="fa-regular fa-check-square"></i> -->
+            <h5 style="margin:0 0 1rem;">Modern Loce Tee</h5>
+            <p style="margin: 2rem 0 1rem;">Women, T-Shirts</p>
+            <p class="p_2" style="margin: 4rem 0;">$68</p>
+
+            <div style="width: 100%; margin: 8rem 0 0; display: inline-block;" class="btn_a">
+
+              <a style="margin-left: 0.5rem;  text-decoration: none; color: var(--bg-primary);" href=""><i
+                  class="fa-solid fa-cart-shopping"></i> Add to cart</a>
+              <a style="margin-left: 1.5rem;  text-decoration: none; color: var(--bg-primary);" href=""><i
+                  class="fa-solid fa-bars"></i> Details</a>
+
+            </div>
 
           </div>
 
@@ -90,7 +114,18 @@ export default {
 
             <img class="first_img2" src="../assets/img/black_elegant_man/black_elegant_leather_jacket.jpg" alt="">
 
-            <!-- <i class="fa-regular fa-check-square"></i> -->
+            <h5 style="margin:0 0 1rem;">Modern Loce Tee</h5>
+            <p style="margin: 2rem 0 1rem;">Women, T-Shirts</p>
+            <p class="p_2" style="margin: 4rem 0;">$68</p>
+
+            <div style="width: 100%; margin: 8rem 0 0; display: inline-block;" class="btn_a">
+
+              <a style="margin-left: 0.5rem;  text-decoration: none; color: var(--bg-primary);" href=""><i
+                  class="fa-solid fa-cart-shopping"></i> Add to cart</a>
+              <a style="margin-left: 1.5rem;  text-decoration: none; color: var(--bg-primary);" href=""><i
+                  class="fa-solid fa-bars"></i> Details</a>
+
+            </div>
 
           </div>
 
@@ -104,7 +139,18 @@ export default {
 
             <img class="first_img2" src="../assets/img/hipster_black/hipster_black_top.jpg" alt="">
 
-            <!-- <i class="fa-regular fa-check-square"></i> -->
+            <h5 style="margin:0 0 1rem;">Modern Loce Tee</h5>
+            <p style="margin: 2rem 0 1rem;">Women, T-Shirts</p>
+            <p class="p_2" style="margin: 4rem 0;">$68</p>
+
+            <div style="width: 100%; margin: 8rem 0 0; display: inline-block;" class="btn_a">
+
+              <a style="margin-left: 0.5rem;  text-decoration: none; color: var(--bg-primary);" href=""><i
+                  class="fa-solid fa-cart-shopping"></i> Add to cart</a>
+              <a style="margin-left: 1.5rem;  text-decoration: none; color: var(--bg-primary);" href=""><i
+                  class="fa-solid fa-bars"></i> Details</a>
+
+            </div>
 
           </div>
 
@@ -253,7 +299,9 @@ export default {
   display: none;
 }
 
-.hover_img>h5, .hover_img>p, .btn_a {
+.hover_img>h5,
+.hover_img>p,
+.btn_a {
   color: var(--bg-primary);
   border-radius: 50%;
   position: absolute;
@@ -261,13 +309,16 @@ export default {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.hover_img>h5{
+
+.hover_img>h5 {
   font-size: 13px;
 }
-.hover_img>p{
+
+.hover_img>p {
   font-size: 11px;
 }
-.hover_img>.p_2{
+
+.hover_img>.p_2 {
   font-size: 20px;
 }
 
@@ -367,5 +418,4 @@ export default {
 
 .color {
   background-color: #f5f5f523;
-}
-</style>
+}</style>
