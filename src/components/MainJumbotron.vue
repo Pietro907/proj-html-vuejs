@@ -47,18 +47,6 @@ export default {
                     price: '39',
                 },
             ],
-        
-
-            /* methods: {
-                getImageUrl() {
-                    return new URL(`../assets/img/${menuJumob.bgJumbo[1]}`);
-                },
-            },
-            computed: {
-                ImageNow() {
-                    return this.image[Math.abs(this.currentBgImage) % this.image.length];
-                },
-            }, */
 
         }
     }
@@ -123,8 +111,6 @@ export default {
     width: 100%;
     height: 570px;
     object-fit: cover;
-        
-    
 }
 
 .container {
