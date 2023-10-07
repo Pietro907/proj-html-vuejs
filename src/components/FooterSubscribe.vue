@@ -3,21 +3,39 @@
 <script>
 export default {
     name: 'FooterSubscribe',
+    data() {
+        return {
+            menuSubscribe: [
+                {
+                    title: 'Subscribe now and get special offers',
+                },
+                {
+                    icon: 'fa-regular fa-envelope',
+                },
+            ],
+            bgSubscribe: [
+                {
+                    bgColor: 'var(--bg-footer-sub)'
+                },
+            ]
+
+        }
+    },
 }
 </script>
 
 <template>
-    <div class="container d_flex jst_center align_center">
+    <div :style="{ background: bgSubscribe[0].bgColor }" class="container d_flex jst_center align_center">
         <div class="row r_60 d_flex jst_btw">
 
             <div class="col subscribe d_flex jst_center align_center">
 
                 <div class="card icon_email">
-                    <i class="fa-regular fa-envelope"></i>
+                    <i :class="menuSubscribe[1].icon"></i>
                 </div>
 
                 <div class="card title">
-                    <h3>Subscribe now and get special offers</h3>
+                    <h3>{{ menuSubscribe[0].title }}</h3>
                 </div>
 
             </div>
@@ -35,14 +53,11 @@ export default {
 
         </div>
     </div>
-
 </template>
 
 <style scoped>
-
-
 .container {
-    background: var(--bg-footer-sub);
+    /* background: var(--bg-footer-sub); */
     height: 220px;
     padding: 0 0 -2rem;
 }
@@ -50,9 +65,11 @@ export default {
 .subscribe {
     font-size: 22px;
 }
-.icon_email > i {
+
+.icon_email>i {
     font-size: 30px;
 }
+
 .icon_email {
     background-color: var(--bg-footer-copy);
     color: var(--bg-gray-light);
@@ -64,14 +81,16 @@ export default {
 .title {
     color: var(--bg-primary);
 }
-.input_email > input {
+
+.input_email>input {
     width: 250px;
     margin: 0 1rem 0 0;
-    padding: 0.7rem 1rem 0.7rem 1rem ;
+    padding: 0.7rem 1rem 0.7rem 1rem;
     border-radius: 20px;
     text-align: start;
     font-size: xx-small;
 }
+
 .btn_shop_now>button {
     padding: 0.5rem 1rem;
     border-radius: 20px;
@@ -87,11 +106,13 @@ export default {
 .d_flex {
     display: flex;
 }
+
 .r_60 {
     width: 60%;
     margin: 0 auto;
     padding: 1rem 0;
 }
+
 .jst_center {
     justify-content: center;
 }
@@ -106,5 +127,4 @@ export default {
 
 .align_center {
     align-items: center;
-}
-</style>
+}</style>
